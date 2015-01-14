@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="container.css" rel="stylesheet" />
+    <script src="container.js"></script>
+</head>
+<body>
+
+
+    <div data-win-control="WinJS.UI.SemanticZoom"
+         data-win-options="{zoomFactor:0.5,initiallyZoomedOut:false}" id="semanticZoom">
+        <!--   用于装载所有 的大页面-->
+        <div id="view-zoomedin" data-win-control="PageControl.ZoomablePages" data-win-options="{preview:false}"></div>
+        <!--   用于装载所有 的预览页面-->
+        <div id="view-zoomedout" data-win-control="PageControl.ZoomablePages" data-win-options="{preview:true}"></div>
+    </div>
+
+</body>
+</html>

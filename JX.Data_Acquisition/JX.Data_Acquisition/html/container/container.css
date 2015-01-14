@@ -1,0 +1,15 @@
+﻿
+
+#semanticZoom {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #171c22;
+    overflow: hidden;
+}
+
+#view-zoomedin {
+    width: 100%;
+    height: 100%;
+    background-color: #171c22;
+}
