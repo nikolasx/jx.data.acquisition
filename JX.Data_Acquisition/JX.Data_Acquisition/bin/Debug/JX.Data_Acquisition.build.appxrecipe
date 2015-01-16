@@ -7,83 +7,110 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>1bbcab80-58f7-45fb-87c4-1ea0510b66ea</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bld\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\css\pageControl.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\pageControl.css">
       <PackagePath>css\pageControl.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.css">
       <PackagePath>html\container\container.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.css">
       <PackagePath>html\home\home.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.css">
       <PackagePath>html\menu\menu.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.css">
+      <PackagePath>html\paint\paint.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\default.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.html">
       <PackagePath>html\container\container.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.html">
       <PackagePath>html\home\home.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\homepreview.html">
+      <PackagePath>html\home\homepreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.html">
       <PackagePath>html\menu\menu.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.html">
+      <PackagePath>html\paint\paint.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
       <PackagePath>html\container\container.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
       <PackagePath>html\home\home.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.js">
       <PackagePath>html\menu\menu.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\default.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.js">
+      <PackagePath>html\paint\paint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\appBarHandlers.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\appBarHandlers.js">
       <PackagePath>js\lib\appBarHandlers.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\jquery-1.11.1.min.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\jquery-1.11.1.min.js">
       <PackagePath>js\lib\jquery-1.11.1.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\navigator.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\navigator.js">
       <PackagePath>js\lib\navigator.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\pageZoomControl.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\pageZoomControl.js">
       <PackagePath>js\lib\pageZoomControl.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\pinch_input.png">
+      <PackagePath>images\preview\pinch_input.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\pinch_sezo.png">
+      <PackagePath>images\preview\pinch_sezo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\press_and_hold.png">
+      <PackagePath>images\preview\press_and_hold.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\rotate.png">
+      <PackagePath>images\preview\rotate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\tap.png">
+      <PackagePath>images\preview\tap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

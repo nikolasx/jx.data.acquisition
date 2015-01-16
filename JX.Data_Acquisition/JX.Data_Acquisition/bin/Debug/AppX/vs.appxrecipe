@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>1bbcab80-58f7-45fb-87c4-1ea0510b66ea</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bld\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>6B20E8C2D85E1C433522C89660844445DB905E09CF9EBBECF14BF38B717D3A9E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1bbcab80-58f7-45fb-87c4-1ea0510b66ea_1.0.0.0_neutral__gs4sda5w24zey</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1bbcab80-58f7-45fb-87c4-1ea0510b66ea_gs4sda5w24zey!App</RegisteredUserModeAppID>
@@ -17,104 +17,140 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-14T03:29:18.844</Modified>
+      <Modified>2015-01-16T08:23:18.918</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\css\pageControl.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\pageControl.css">
       <PackagePath>css\pageControl.css</PackagePath>
       <Modified>2013-10-14T07:35:24.365</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.css">
       <PackagePath>html\container\container.css</PackagePath>
       <Modified>2015-01-14T03:22:51.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.css">
       <PackagePath>html\home\home.css</PackagePath>
       <Modified>2013-09-24T13:02:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.css">
       <PackagePath>html\menu\menu.css</PackagePath>
       <Modified>2013-09-24T13:02:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.css">
+      <PackagePath>html\paint\paint.css</PackagePath>
+      <Modified>2013-09-24T13:02:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
       <PackagePath>css\default.css</PackagePath>
       <Modified>2015-01-14T03:27:02.688</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\default.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\default.html">
       <PackagePath>default.html</PackagePath>
       <Modified>2015-01-14T03:10:03.956</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.html">
       <PackagePath>html\container\container.html</PackagePath>
       <Modified>2015-01-14T03:02:53.377</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.html">
       <PackagePath>html\home\home.html</PackagePath>
       <Modified>2015-01-14T03:26:21.573</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.html">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\homepreview.html">
+      <PackagePath>html\home\homepreview.html</PackagePath>
+      <Modified>2015-01-16T08:22:08.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.html">
       <PackagePath>html\menu\menu.html</PackagePath>
       <Modified>2015-01-14T03:35:56.397</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
-      <PackagePath>html\container\container.js</PackagePath>
-      <Modified>2015-01-14T03:18:01.785</Modified>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.html">
+      <PackagePath>html\paint\paint.html</PackagePath>
+      <Modified>2014-04-30T18:02:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
+      <PackagePath>html\container\container.js</PackagePath>
+      <Modified>2015-01-16T08:24:41.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
       <PackagePath>html\home\home.js</PackagePath>
       <Modified>2015-01-14T03:33:30.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.js">
       <PackagePath>html\menu\menu.js</PackagePath>
       <Modified>2015-01-14T03:33:40.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\default.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.js">
+      <PackagePath>html\paint\paint.js</PackagePath>
+      <Modified>2013-09-24T13:02:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\default.js">
       <PackagePath>js\default.js</PackagePath>
       <Modified>2015-01-14T02:27:13.780</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\appBarHandlers.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\appBarHandlers.js">
       <PackagePath>js\lib\appBarHandlers.js</PackagePath>
       <Modified>2013-10-25T09:20:22.866</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\jquery-1.11.1.min.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\jquery-1.11.1.min.js">
       <PackagePath>js\lib\jquery-1.11.1.min.js</PackagePath>
       <Modified>2015-01-06T09:17:24.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\navigator.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\navigator.js">
       <PackagePath>js\lib\navigator.js</PackagePath>
       <Modified>2013-10-14T07:35:25.042</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\pageZoomControl.js">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\pageZoomControl.js">
       <PackagePath>js\lib\pageZoomControl.js</PackagePath>
       <Modified>2013-11-06T08:28:47.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T18:11:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\smalllogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\pinch_input.png">
+      <PackagePath>images\preview\pinch_input.png</PackagePath>
+      <Modified>2013-11-29T06:44:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\pinch_sezo.png">
+      <PackagePath>images\preview\pinch_sezo.png</PackagePath>
+      <Modified>2013-11-29T03:44:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\press_and_hold.png">
+      <PackagePath>images\preview\press_and_hold.png</PackagePath>
+      <Modified>2013-11-29T06:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\rotate.png">
+      <PackagePath>images\preview\rotate.png</PackagePath>
+      <Modified>2013-11-29T06:43:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\preview\tap.png">
+      <PackagePath>images\preview\tap.png</PackagePath>
+      <Modified>2013-11-29T06:43:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\smalllogo.scale-100.png">
       <PackagePath>images\smalllogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T18:11:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\splashscreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\splashscreen.scale-100.png">
       <PackagePath>images\splashscreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T18:11:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\images\storelogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-13T18:11:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-14T03:29:18.680</Modified>
+      <Modified>2015-01-16T08:23:18.737</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

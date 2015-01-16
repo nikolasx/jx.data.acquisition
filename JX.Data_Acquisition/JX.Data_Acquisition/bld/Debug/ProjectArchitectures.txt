@@ -1,1 +1,1 @@
-C:\Users\lixiong1\Desktop\win8\JX.Data_Acquisition\JX.Data_Acquisition\JX.Data_Acquisition.jsproj;neutral
+C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\JX.Data_Acquisition.jsproj;neutral
