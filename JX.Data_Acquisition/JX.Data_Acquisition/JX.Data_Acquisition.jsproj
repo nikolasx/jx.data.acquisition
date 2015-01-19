@@ -70,6 +70,7 @@
     <Content Include="html\paint\paint.css" />
     <Content Include="html\paint\paint.html" />
     <Content Include="html\paint\paint.js" />
+    <Content Include="images\pageReturn.png" />
     <Content Include="images\logo.scale-100.png" />
     <Content Include="images\preview\pinch_input.png" />
     <Content Include="images\preview\pinch_sezo.png" />

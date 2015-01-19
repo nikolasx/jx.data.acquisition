@@ -79,6 +79,9 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\pageZoomControl.js">
       <PackagePath>js\lib\pageZoomControl.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\pageReturn.png">
+      <PackagePath>images\pageReturn.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>

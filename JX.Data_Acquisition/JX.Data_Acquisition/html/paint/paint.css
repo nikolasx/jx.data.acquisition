@@ -1,2 +1,95 @@
-﻿body {
+﻿
+/*手绘样式*/
+
+#paintWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
 }
+#paintHeader {
+    width:500px;
+    height:90px;
+}
+#paintTitleIcon {
+    width:11px;
+    height:17px;
+    background-image:url("/images/pageReturn.png");
+    margin-top:43px;
+    margin-left:22px;
+    float:left;
+}
+#paintTitle {
+    height:36px;
+    width:400px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float:left;
+}
+
+#paintTop {
+    position: absolute;
+    top: 110px;
+    left: 55px;
+    right: 55px;
+    height:50px;
+}
+.paintToolItem {
+    border:3px solid #0a63a7;
+    margin-right:15px;
+    float:left;
+    font-size:20px;
+    line-height:38px;
+    text-align:center;
+    letter-spacing:2px;
+}
+.paintToolTip {
+    width:110px;
+    height:38px;
+    float:left;
+    margin-left:15px;
+}
+#paintLineWidthSelect,#paintLineColorSelect {
+    width:95px;
+    height:30px;
+    float:left;
+    background:#171c22;
+    color:#ffffff;
+}
+#paintLineWidth,#paintLineColor {
+    width:224px;
+    height:38px;
+}
+#paintLineClear{
+    width:126px;
+    height:38px;
+}
+#paintClear, #paintHistory {
+    width:126px;
+    height:38px;
+}
+#paintSave {
+    margin-left:150px;
+    margin-right:0px;
+    width:150px;
+    height:38px;
+    font-size:27px;
+    border:none;
+    color:#ff7e00;
+}
+#paintContent {
+    position: absolute;
+    top: 180px;
+    left: 55px;
+    right: 60px;
+    bottom: 60px;
+    border:12px solid #3a4651;
+}
+#paintCanvas {
+    width: 100%;
+    height: 100%;
+    background-color:#ffffff;
+    background-image:url(../../images/paintBackground.png);
+}
+
+

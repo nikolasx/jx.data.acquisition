@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-16T08:23:18.918</Modified>
+      <Modified>2015-01-19T01:57:53.695</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.css">
       <PackagePath>html\paint\paint.css</PackagePath>
-      <Modified>2013-09-24T13:02:00.000</Modified>
+      <Modified>2015-01-19T02:23:10.002</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -66,15 +66,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.html">
       <PackagePath>html\menu\menu.html</PackagePath>
-      <Modified>2015-01-14T03:35:56.397</Modified>
+      <Modified>2015-01-19T01:33:36.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.html">
       <PackagePath>html\paint\paint.html</PackagePath>
-      <Modified>2014-04-30T18:02:38.000</Modified>
+      <Modified>2015-01-19T02:57:33.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
       <PackagePath>html\container\container.js</PackagePath>
-      <Modified>2015-01-16T08:24:41.622</Modified>
+      <Modified>2015-01-19T01:52:04.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
       <PackagePath>html\home\home.js</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.js">
       <PackagePath>html\paint\paint.js</PackagePath>
-      <Modified>2013-09-24T13:02:00.000</Modified>
+      <Modified>2015-01-19T03:06:02.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -106,7 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\pageZoomControl.js">
       <PackagePath>js\lib\pageZoomControl.js</PackagePath>
-      <Modified>2013-11-06T08:28:47.296</Modified>
+      <Modified>2015-01-19T01:13:32.495</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\pageReturn.png">
+      <PackagePath>images\pageReturn.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.448</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\logo.scale-100.png">
       <PackagePath>images\logo.scale-100.png</PackagePath>
@@ -150,7 +154,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-16T08:23:18.737</Modified>
+      <Modified>2015-01-19T01:57:53.538</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

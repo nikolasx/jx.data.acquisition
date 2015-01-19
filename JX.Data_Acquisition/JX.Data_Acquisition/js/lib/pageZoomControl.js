@@ -120,7 +120,7 @@
                         //var appBarHost = document.getElementById("appbar");
                         //var appBar = appBarHost.winControl;
                         if (semanticZoom.zoomedOut) {
-                           
+
                             appBar.showOnlyCommands(appBarHost.querySelectorAll(".appbar-misc"));
                         }
                     },
@@ -276,7 +276,7 @@
             },
 
             _beginZoom: function () {
-               
+
                 // If we are snapped then need to unsnap before zooming
                 if (!this.snapZoomEvent && this._preview && Windows.UI.ViewManagement.ApplicationView.value === Windows.UI.ViewManagement.ApplicationViewState.snapped) {
                     if (!Windows.UI.ViewManagement.ApplicationView.tryUnsnap()) {
@@ -306,7 +306,7 @@
                 this._canvas.style.left = scrollOffset + "px";
 
                 this._viewport.style.overflowY = "visible";
-                    
+
             },
 
             _getCurrentItem: function () {
