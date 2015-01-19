@@ -14,7 +14,7 @@
 
                 args.setPromise(WinJS.UI.processAll()
                     .then(function () {
-                        return WinJS.Navigation.navigate("/html/paint/paint.html");
+                        return WinJS.Navigation.navigate("/html/container/container.html");
                     }));
 
             } else {
