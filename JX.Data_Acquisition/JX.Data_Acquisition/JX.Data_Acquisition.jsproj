@@ -85,6 +85,7 @@
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="js\lib\appBarHandlers.js" />
+    <Content Include="js\lib\customeDragPan.js" />
     <Content Include="js\lib\jquery-1.11.1.min.js" />
     <Content Include="js\lib\navigator.js" />
     <Content Include="js\lib\OpenLayers.js" />
