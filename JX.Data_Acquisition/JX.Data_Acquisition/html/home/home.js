@@ -16,16 +16,21 @@
 
     var homePage = {
 
+        map: null,
 
-        initialize: function() {
+        initialize: function () {
             this.addMap();
+            this.attachEvents();
         },
 
-
+        //加载地图
         addMap: function () {
-            var map = new OpenLayers.Map("mainMap", {
+            var mouse = new OpenLayers.Control.MousePosition();
+            var nav = new OpenLayers.Control.Navigation();
+            this.map = new OpenLayers.Map("mainMap", {
                 maxExtent: new OpenLayers.Bounds(12523442.7142433, 2504688.54284865, 13775786.9856676, 3757032.81427298),
-                numZoomLevels: 5,
+                controls:[nav],
+                numZoomLevels: 6,
                 maxResolution: (13775786.9856676 - 12523442.7142433) / 256,
                 theme: null
             });
@@ -34,10 +39,53 @@
                 baseUrl: "/map/images/IMG"
             });
 
-            map.addLayer(titleLayerApp);
-            map.setCenter(new OpenLayers.LonLat(13034849.6, 3565059.8), 3);
+            var titleLayer = new Zondy.Map.TileLayer("ditu", "jxApp", {
+                ip: '192.168.83.122',
+                port: '6163',
+                transitionEffect: 'resize'
+            });
+
+            this.map.addLayer(titleLayerApp);
+            this.map.setCenter(new OpenLayers.LonLat(12997262.6, 3317403.8), 3);
+        },
+
+        //事件
+        attachEvents: function () {
+
+
+            $("#showAppBarForPC").click(function() {
+                appBar.show();
+            });
+
+            var that = this;
+            //appBar事件
+            var lockBtn = document.getElementById("btnLockMap").winControl;
+            lockBtn.addEventListener("click", lockMap, false);
+
+            var resetMap = document.getElementById("btnReset").winControl;
+            resetMap.addEventListener("click", function () {
+                that.map.setCenter(new OpenLayers.LonLat(12997262.6, 3317403.8), 3);
+            }, false);
+
+
+            //锁屏
+            var locked = false;
+            function lockMap() {
+                if (!locked) {
+                    $("#mapLock").hide();
+                    zoomedInView.zoomableView.beginZoom();
+                    locked = true;
+                } else {
+                    $("#mapLock").show();
+                    zoomedInView.zoomableView.endZoom();
+                    locked = false;
+                }
+            }
+
         }
 
     };
+
+
 
 })();

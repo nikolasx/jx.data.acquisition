@@ -103,7 +103,7 @@ Zondy.Map.TileLayerForMetro = OpenLayers.Class(OpenLayers.Layer.Grid, Zondy.Serv
         if (y < 0)//如果是左上角是原点
             y = Math.round((this.tileOrigin.lat - bounds.top) / (res * this.tileSize.h));
         var z = this.getZoomForResolution(res, true) + this.zoomOffset;
-        var url = this.baseUrl + z + "/Row" + y + "/" +y+"_"+ x+".jpg";
+        var url = this.baseUrl + z + "/Row" + y + "/" +y+"_"+ x+".png";
         if (url instanceof Array) {
             url = this.selectUrl(path, url);
         }

@@ -90,7 +90,6 @@
             this._indexToId = [];
             this._viewChangeHandlers = [];
 
-            //定义一个数组用于记录已经加入的页面
             this._hasAddPages = [];
 
             if (options) {
@@ -117,8 +116,7 @@
 
                         // Set the correct appbar commands
                         var semanticZoom = document.getElementById("semanticZoom").winControl;
-                        //var appBarHost = document.getElementById("appbar");
-                        //var appBar = appBarHost.winControl;
+                        
                         if (semanticZoom.zoomedOut) {
 
                             appBar.showOnlyCommands(appBarHost.querySelectorAll(".appbar-misc"));
@@ -202,41 +200,6 @@
                 // Store the name of the page to be used later
                 this._indexToId.push(pageName);
                 this._hasAddPages.push(container);
-            },
-
-            //自己加的一个方法用于移除html页面
-            removePage: function (pageName) {
-                //寻找pageName在数组中的index值 
-                var targetIndex = 0;
-                for (var j = 0; j < this._indexToId.length; j++) {
-                    if (this._indexToId[j] == pageName) {
-                        targetIndex = j;
-                    }
-                }
-                this._pages--;
-                var childWidth = (100 / this._pages) + "%";
-                for (var i = 0; i < this._canvas.children.length; ++i) {
-                    this._canvas.children[i].style.width = childWidth;
-                }
-                this._canvas.style.width = (this._pages * 100) + "%";
-                this._canvas.removeChild(this._hasAddPages[targetIndex]);
-            },
-
-            //自己加的一个方法用于解锁后重新加载html页面
-            reloadPages: function (pageName) {
-                var targetIndex = 0;
-                for (var j = 0; j < this._indexToId.length; j++) {
-                    if (this._indexToId[j] == pageName) {
-                        targetIndex = j;
-                    }
-                }
-                this._pages++;
-                var childWidth = (100 / this._pages) + "%";
-                for (var i = 0; i < this._canvas.children.length; ++i) {
-                    this._canvas.children[i].style.width = childWidth;
-                }
-                this._canvas.style.width = (this._pages * 100) + "%";
-                this._canvas.appendChild(this._hasAddPages[targetIndex]);
             },
 
             registerViewChangeHandler: function (handler) {

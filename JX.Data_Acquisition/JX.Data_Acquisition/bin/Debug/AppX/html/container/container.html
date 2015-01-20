@@ -11,11 +11,17 @@
 
     <div data-win-control="WinJS.UI.SemanticZoom"
          data-win-options="{zoomFactor:0.5,initiallyZoomedOut:false}" id="semanticZoom">
-        <!--   用于装载所有 的大页面-->
         <div id="view-zoomedin" data-win-control="PageControl.ZoomablePages" data-win-options="{preview:false}"></div>
-        <!--   用于装载所有 的预览页面-->
         <div id="view-zoomedout" data-win-control="PageControl.ZoomablePages" data-win-options="{preview:true}"></div>
     </div>
 
+    <div id="appbar" data-win-control="WinJS.UI.AppBar">
+        
+        <!--全地图界面的应用栏按钮-->
+        <button id="btnReset" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'复位',icon:'url(/images/appBarIcon/lock.png)',section:'global', tooltip:'地图复位', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnLockMap" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'锁屏',icon:'url(/images/appBarIcon/lock.png)',section:'global',tooltip:'锁屏', extraClass:'appbar-appedgy'}"></button>
+
+
+    </div>
 </body>
 </html>
