@@ -1,0 +1,176 @@
+﻿body {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: 'Microsoft YaHei';
+    border: none;
+    background-color: #ECF2EE;
+}
+
+.mainWindow {
+    position: relative;
+    width: 800px;
+    height: 1100px;
+    margin: 30px auto 0;
+}
+
+/*导航区开始*/
+#navigatorMenu {
+    width: 722px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 12px;
+}
+
+.naviChlid {
+    width: 70px;
+    border-top: 1px solid #cecece;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    float: left;
+    height: 28px;
+    color: #293aa1;
+    font-size: 15px;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+    .naviChlid:hover {
+        background-color: #4d59a0;
+    }
+
+.naviChildSelected {
+    background-color: #4476d1;
+    border-top: 1px solid #cecece;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+    color: white;
+}
+
+.margin1pxControl {
+    margin-left: -1px;
+}
+
+.notNaviChlid {
+    float: left;
+    width: 436px;
+    height: 30px;
+    border-top: 1px solid #cecece;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+}
+
+/*导航区结束*/
+
+/*滑坡*/
+
+/*滑坡表格1开始*/
+#infoPageChart1 {
+    width: 720px;
+    height: 937px;
+    border: 1px solid #cecece;
+    margin-left: 50px;
+    margin-top: 0px;
+    background-color: #DDEAFF;
+}
+
+.chart1CommonS {
+    float: left;
+    height: 30px;
+    width: 69px;
+    border-right: 1px solid #cecece;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    color: #373434;
+}
+
+.chart1CommonSnoHeight {
+    float: left;
+    border-right: 1px solid #cecece;
+    font-size: 12px;
+    text-align: center;
+    color: #373434;
+    background-color: white;
+}
+
+.chart1CommonS1 {
+    float: left;
+    height: 30px;
+    border-right: 1px solid #cecece;
+}
+
+.textCommonS {
+    height: 28px;
+    width: 98%;
+    border: none;
+    text-align: center;
+    line-height: 28px;
+}
+
+.fontCommonS {
+    font-size: 12px;
+    text-align: center;
+    color: #373434;
+}
+
+.fontCommonSpan {
+    font-size: 9px;
+    text-align: center;
+    color: #373434;
+}
+
+.radioCommonS {
+    width: 10px;
+    height: 10px;
+}
+
+.chart1CommonS2 {
+    float: left;
+    border-right: 1px solid #cecece;
+    height: 100%;
+}
+
+.radioStyle1 {
+    height: 11px;
+    width: 11px;
+}
+/*滑坡表格1结束*/
+
+/*滑坡表格2开始，除部分特殊位置外，大部分样式使用表格1已定义之内容*/
+#infoPageChart2 {
+    width: 720px;
+    height: 1447px;
+    margin-left: 50px;
+    margin-top: -1px;
+    border: 1px solid #cecece;
+    background-color: #DDEAFF;
+}
+
+
+#infoPageChart3 {
+    width: 720px;
+    height: 1408px;
+    margin-left: 50px;
+    margin-top: -1px;
+    border: 1px solid #cecece;
+    background-color: #DDEAFF;
+}
+
+#infoPageChart4 {
+    width: 720px;
+    height: 563px;
+    margin-left: 50px;
+    margin-top: -1px;
+    border: 1px solid #cecece;
+    background-color: #DDEAFF;
+}
+
+.buttonCommon {
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+    background-color: #2c5cb5;
+    color: white;
+    font-size: 14px;
+}

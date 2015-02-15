@@ -1,2 +1,71 @@
-﻿body {
+﻿
+
+#menuWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#menuTitle {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    font-size: 36px;
+    text-indent: 50px;
+    margin-top: 15px;
+}
+
+.menuLeft {
+    width: 850px;
+    margin-left: 50px;
+}
+
+.menuLeftTitle {
+    width: 100%;
+    font-size: 23px;
+    height: 40px;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+.menuLeftContent {
+    width: 100%;
+    height: 550px;
+}
+
+.menuBtn {
+    float: left;
+    margin-bottom: 13px;
+    margin-right: 13px;
+}
+
+.menu_baseData {
+    width: 268px;
+    height: 251px;
+    background-image: url("/images/menuIcon/baseDataIcon.png");
+}
+
+.menu_qftx {
+    width: 549px;
+    height: 251px;
+    background-image: url("/images/menuIcon/qftx.png");
+}
+
+.menu_disasterStatistic {
+    width: 268px;
+    height: 118px;
+    background-image: url("/images/menuIcon/disasterstatistic.png");
+}
+
+.menu_paint {
+    width: 268px;
+    height: 118px;
+    background-image: url("/images/menuIcon/paint.png");
+}
+
+.menu_disasterQuery{
+    width: 268px;
+    height: 118px;
+    background-image: url("/images/menuIcon/disasterQuery.png");
+    clear:left;
 }

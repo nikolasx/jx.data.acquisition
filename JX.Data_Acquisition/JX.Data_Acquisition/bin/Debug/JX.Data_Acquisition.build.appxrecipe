@@ -19,8 +19,20 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\pageControl.css">
       <PackagePath>css\pageControl.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\appSet\appset.css">
+      <PackagePath>html\appSet\appset.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.css">
       <PackagePath>html\container\container.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\CSS\common.css">
+      <PackagePath>html\Disaster5WInfo\CSS\common.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.css">
+      <PackagePath>html\disasterquery\query.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.css">
+      <PackagePath>html\disaster\disaster.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.css">
       <PackagePath>html\home\home.css</PackagePath>
@@ -34,11 +46,29 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\lhgcalendar.css">
+      <PackagePath>js\lib\Calender\skins\lhgcalendar.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\CheckDivBox\style\main.css">
+      <PackagePath>js\lib\CheckDivBox\style\main.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\appSet\appset.html">
+      <PackagePath>html\appSet\appset.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.html">
       <PackagePath>html\container\container.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Huapo.html">
+      <PackagePath>html\Disaster5WInfo\Huapo.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.html">
+      <PackagePath>html\disasterquery\query.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.html">
+      <PackagePath>html\disaster\disaster.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.html">
       <PackagePath>html\home\home.html</PackagePath>
@@ -52,8 +82,35 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.html">
       <PackagePath>html\paint\paint.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\appSet\appset.js">
+      <PackagePath>html\appSet\appset.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\appSet\disasterDb.js">
+      <PackagePath>html\appSet\disasterDb.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
       <PackagePath>html\container\container.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\common.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\common.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\datademo.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\datademo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\huapo.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\huapo.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\interfaceAPI.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\interfaceAPI.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\temp.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\temp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.js">
+      <PackagePath>html\disasterquery\query.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.js">
+      <PackagePath>html\disaster\disaster.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
       <PackagePath>html\home\home.js</PackagePath>
@@ -70,6 +127,15 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\appBarHandlers.js">
       <PackagePath>js\lib\appBarHandlers.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\lhgcalendar.js">
+      <PackagePath>js\lib\Calender\lhgcalendar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\CheckDivBox\CheckDivBox.js">
+      <PackagePath>js\lib\CheckDivBox\CheckDivBox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\customeDragPan.js">
+      <PackagePath>js\lib\customeDragPan.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\jquery-1.11.1.min.js">
       <PackagePath>js\lib\jquery-1.11.1.min.js</PackagePath>
     </AppxPackagedFile>
@@ -85,11 +151,62 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\TileLayer.Metro.js">
       <PackagePath>js\lib\TileLayer.Metro.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\util.js">
+      <PackagePath>js\lib\util.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\zdclient.js">
       <PackagePath>js\lib\zdclient.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\img\select.png">
+      <PackagePath>html\disasterquery\img\select.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\appBarIcon\lock.png">
       <PackagePath>images\appBarIcon\lock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\06.png">
+      <PackagePath>images\menuIcon\06.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\07.png">
+      <PackagePath>images\menuIcon\07.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\08.png">
+      <PackagePath>images\menuIcon\08.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\disasterQuery.png">
+      <PackagePath>images\menuIcon\disasterQuery.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\baseDataIcon.png">
+      <PackagePath>images\menuIcon\baseDataIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\disasterstatistic.png">
+      <PackagePath>images\menuIcon\disasterstatistic.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\fzgh1.png">
+      <PackagePath>images\menuIcon\fzgh1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\paint.png">
+      <PackagePath>images\menuIcon\paint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\qfjc1.png">
+      <PackagePath>images\menuIcon\qfjc1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\qftx.png">
+      <PackagePath>images\menuIcon\qftx.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\sjbb.png">
+      <PackagePath>images\menuIcon\sjbb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\yjdclr.png">
+      <PackagePath>images\menuIcon\yjdclr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\yjzj.png">
+      <PackagePath>images\menuIcon\yjzj.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\yjzj1.png">
+      <PackagePath>images\menuIcon\yjzj1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\zlgc.png">
+      <PackagePath>images\menuIcon\zlgc.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\pageReturn.png">
       <PackagePath>images\pageReturn.png</PackagePath>
@@ -124,6 +241,15 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\storelogo.scale-100.png">
       <PackagePath>images\storelogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\img\close.png">
+      <PackagePath>js\lib\Calender\img\close.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\img\nest-popup.png">
+      <PackagePath>js\lib\Calender\img\nest-popup.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\CheckDivBox\img\select.png">
+      <PackagePath>js\lib\CheckDivBox\img\select.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\map\images\IMG0\Row0\0_0.png">
       <PackagePath>map\images\IMG0\Row0\0_0.png</PackagePath>
@@ -4220,8 +4346,23 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\map\images\IMG5\Row9\9_9.png">
       <PackagePath>map\images\IMG5\Row9\9_9.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\test.jpg">
-      <PackagePath>images\test.jpg</PackagePath>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\default\default_s.gif">
+      <PackagePath>js\lib\Calender\skins\default\default_s.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\default\default_s2.gif">
+      <PackagePath>js\lib\Calender\skins\default\default_s2.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\default\Desktop_1.ini">
+      <PackagePath>js\lib\Calender\skins\default\Desktop_1.ini</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\default\Desktop_2.ini">
+      <PackagePath>js\lib\Calender\skins\default\Desktop_2.ini</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\Desktop_1.ini">
+      <PackagePath>js\lib\Calender\skins\Desktop_1.ini</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\Calender\skins\Desktop_2.ini">
+      <PackagePath>js\lib\Calender\skins\Desktop_2.ini</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>

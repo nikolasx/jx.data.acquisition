@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>查询显示</title>
+    <link href="query.css" rel="stylesheet" />
+    <script src="query.js"></script>
+</head>
+<body>
+    <div id="queryWrapper">
+        <header id="queryHeader">
+            <div id="queryReturnIcon"></div>
+            <div id="queryTitle">查询显示</div>
+        </header>
+
+        <div id="queryContent">
+            <div id="queryLeft">
+                <div id="queryConditionsPanel">
+                    <div id="queryItems">灾害类型</div>
+                    <div id="queryTypeBox">
+
+                        <div id="disasterTypeTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+                            <div class="disasterTypeTemplate">
+                                <div class="disasterTypeItem" data-win-bind="innerText: title"></div>
+                            </div>
+                        </div>
+
+                        <div id="disasterTypeListView"
+                             data-win-control="WinJS.UI.ListView"
+                             data-win-options="{
+                                itemDataSource : disasterQuery.disTypeCheckbox.dataSource,
+                                itemTemplate: select('#disasterTypeTemplate'),
+                                selectionMode: 'multi',
+                                tapBehavior: 'toggleSelect',
+                                layout: { type: WinJS.UI.GridLayout, orientation: WinJS.UI.Orientation.vertical}}">
+                        </div>
+
+                    </div>
+
+                    <div id="queryBtnBox">
+                        <div id="queryGeoConditionTip">范围限定</div>
+                        <div id="queryGeoConditionBox">
+                            <div class="queryConditionBtn">拉框</div>
+                            <div class="queryConditionBtn">画圆</div>
+                            <div class="queryConditionBtn">无选择</div>
+                        </div>
+                        <div id="queryCommit">查 询</div>
+                    </div>
+                </div>
+
+                <!--查询结果展示-->
+                <div id="queryResultPanel">
+                    <div id="queryResultSearchBox">
+                        <div id="queryResultSearchTip">检 索</div>
+                        <input id="queryResultSearch" />
+                    </div>
+
+                    <div id="queryResultBox">
+
+                        <div id="queryResultTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
+                            <div class="queryResultTemplate">
+                                <div class="queryResultItem">
+                                    <div data-win-bind="innerText:灾害类型"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="queryResultListView"
+                             data-win-control="WinJS.UI.ListView"
+                             data-win-options="{
+                                itemDataSource : disasterQuery.queryResultList.dataSource,
+                                itemTemplate: select('#queryResultTemplate'),
+                                selectionMode: 'single',
+                                tapBehavior: 'directSelect',
+                                layout: { type: WinJS.UI.ListLayout}
+                              }">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="queryRight">
+                <div id="queryMap"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

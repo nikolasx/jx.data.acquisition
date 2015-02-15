@@ -1,0 +1,254 @@
+﻿
+
+#queryWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#queryHeader {
+    width: 100%;
+    height: 100px;
+}
+
+#queryReturnIcon {
+    width: 11px;
+    height: 17px;
+    background-image: url("/images/pageReturn.png");
+    float: left;
+    margin-top: 41px;
+    margin-left: 22px;
+}
+
+#queryTitle {
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 17px;
+}
+
+#queryContent {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+#queryLeft {
+    width: 460px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+#queryRight {
+    position: absolute;
+    left: 460px;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+#queryMap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 8px solid #3A4651;
+    width: 850px;
+    height: 540px;
+}
+
+.queryConditionsPanel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#queryItems {
+    width: 300px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+#queryTypeBox {
+    width: 395px;
+    height: 330px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#disasterTypeListView {
+    width: 390px;
+    height: 320px;
+}
+
+    #disasterTypeListView .win-surface {
+        margin: 10px 0 10px 10px;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    #disasterTypeListView .win-container {
+        width: 180px;
+        height: 40px;
+        margin: 5px 10px 5px 0;
+    }
+
+    #disasterTypeListView .win-selectionborder {
+        border: 3px solid #488DE1;
+    }
+
+    #disasterTypeListView .win-selectioncheckmarkbackground {
+        border-width: 12px;
+        border-top-color: #488DE1;
+        border-right-color: #488DE1;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    #disasterTypeListView .win-selectioncheckmark {
+        font-size: 5pt;
+    }
+
+.disasterTypeItem {
+    width: 174px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    background-color: #313C47;
+    margin: 3px;
+}
+
+#queryBtnBox {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+}
+
+#queryGeoConditionTip {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+#queryGeoConditionBox {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.queryConditionBtn {
+    width: 115px;
+    height: 30px;
+    background-color: #444899;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    margin-right: 17px;
+    float: left;
+}
+
+#queryCommit {
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-size: 30px;
+    color: #FF9600;
+    text-align: right;
+}
+
+#queryResultPanel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+
+#queryResultSearchBox {
+    width: 100%;
+    height: 35px;
+}
+
+#queryResultSearchTip {
+    float: left;
+    width: 75px;
+    height: 35px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 35px;
+    margin-left: 50px;
+}
+
+#queryResultSearch {
+    height: 30px;
+    border: 1px solid #212830;
+    outline: none;
+    background-color: #313C47;
+    width: 260px;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    color: #fff;
+}
+
+#queryResultBox {
+    position: relative;
+    width: 400px;
+    margin-left: 40px;
+    height: 500px;
+    margin-top: 20px;
+}
+
+#queryResultListView {
+    width: 100%;
+    height: 100%;
+}
+
+    #queryResultListView .win-surface {
+        margin: 0;
+        padding: 0;
+    }
+
+    #queryResultListView .win-container {
+        width: 374px;
+        height: 100px;
+        margin: 10px auto 10px;
+    }
+
+    #queryResultListView .win-selectionborder {
+        border: 3px solid #fff;
+    }
+
+    #queryResultListView .win-selectioncheckmarkbackground {
+        border-width: 20px;
+        border-top-color: #fff;
+        border-right-color: #fff;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    #queryResultListView .win-selectioncheckmark {
+        font-size: 11pt;
+        color: #444899;
+    }
+
+.queryResultItem {
+    width: 374px;
+    height: 100px;
+    background-color: #1475B2;
+}

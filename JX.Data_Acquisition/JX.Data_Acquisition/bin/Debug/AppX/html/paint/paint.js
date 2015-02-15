@@ -28,6 +28,13 @@
 
         attachEvents: function () {
 
+            //页面跳转
+            $("#paintTitleIcon,#paintTitle").click(function () {
+                //模拟导航
+                $("#secondPageContainer").css("height", "0");
+                $("#firstPageContainer").css("height", "100%");
+            });
+
             var canvas = $("#paintCanvas");
 
             $("#paintLineWidthSelect").change(function () {

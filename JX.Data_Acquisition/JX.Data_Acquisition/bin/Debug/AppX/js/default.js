@@ -39,9 +39,16 @@
 
     //页面加载事件
     WinJS.Navigation.addEventListener("navigated", function (eventObject) {
-        var url = eventObject.detail.location;
-        var host = document.getElementById("firstPageContainer");
-        // Call unload method on current scenario, if there is one
+        var url = eventObject.detail.location, host;
+        if (url == "/html/container/container.html") {
+            $("#secondPageContainer").css("height","0");
+            $("#firstPageContainer").css("height", "100%");
+            host = document.getElementById("firstPageContainer");
+        } else {
+            $("#secondPageContainer").css("height", "100%");
+            $("#firstPageContainer").css("height", "0");
+            host = document.getElementById("secondPageContainer");
+        }
         host.winControl && host.winControl.unload && host.winControl.unload();
         WinJS.Utilities.empty(host);
         eventObject.detail.setPromise(WinJS.UI.Pages.render(url, host, eventObject.detail.state)

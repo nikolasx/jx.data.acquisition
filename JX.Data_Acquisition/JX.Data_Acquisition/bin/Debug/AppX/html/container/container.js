@@ -25,7 +25,7 @@
             window.zoomedInView = document.getElementById("view-zoomedin").winControl;
             zoomedInView.addPage("/html/home/home.html", "home");
             zoomedInView.addPage("/html/menu/menu.html", "menu");
-            //zoomedInView.addPage("/html/paint/paint.html", "paint");
+            zoomedInView.addPage("/html/appSet/appset.html", "appset");
 
             //添加预览页面
             window.zoomedOutView = document.getElementById("view-zoomedout").winControl;
