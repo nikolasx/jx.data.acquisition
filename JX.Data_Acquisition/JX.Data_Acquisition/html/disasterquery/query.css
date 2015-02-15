@@ -252,3 +252,36 @@
     height: 100px;
     background-color: #1475B2;
 }
+
+.queryResultItemType {
+    width: 200px;
+    height: 40px;
+    margin-left: 15px;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.queryResultItemName {
+    width: 340px;
+    height: 25px;
+    margin-left: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.queryResultItemInfo {
+    width: 340px;
+    height: 25px;
+    margin-left: 25px;
+}
+
+.queryResultItemBianhao,
+.queryResultItemWXRK {
+    width: 170px;
+    height: 25px;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+}

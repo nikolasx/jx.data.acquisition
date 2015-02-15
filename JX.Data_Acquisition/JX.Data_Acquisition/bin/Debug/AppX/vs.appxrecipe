@@ -42,7 +42,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.css">
       <PackagePath>html\disasterquery\query.css</PackagePath>
-      <Modified>2015-02-12T03:55:30.567</Modified>
+      <Modified>2015-02-15T06:02:17.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.css">
       <PackagePath>html\disaster\disaster.css</PackagePath>
@@ -90,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.html">
       <PackagePath>html\disasterquery\query.html</PackagePath>
-      <Modified>2015-02-12T02:58:00.171</Modified>
+      <Modified>2015-02-15T06:22:34.250</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.html">
       <PackagePath>html\disaster\disaster.html</PackagePath>
@@ -146,7 +146,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.js">
       <PackagePath>html\disasterquery\query.js</PackagePath>
-      <Modified>2015-02-12T03:48:44.762</Modified>
+      <Modified>2015-02-15T07:42:39.971</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.js">
       <PackagePath>html\disaster\disaster.js</PackagePath>
@@ -206,7 +206,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\util.js">
       <PackagePath>js\lib\util.js</PackagePath>
-      <Modified>2015-02-12T01:32:06.251</Modified>
+      <Modified>2015-02-15T06:31:59.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\zdclient.js">
       <PackagePath>js\lib\zdclient.js</PackagePath>

@@ -60,7 +60,18 @@
                         <div id="queryResultTemplate" data-win-control="WinJS.Binding.Template" style="display: none;">
                             <div class="queryResultTemplate">
                                 <div class="queryResultItem">
-                                    <div data-win-bind="innerText:灾害类型"></div>
+                                    <div class="queryResultItemType" data-win-bind="innerText:灾害类型"></div>
+                                    <div class="queryResultItemName">
+                                        <label>名称: </label><label data-win-bind="innerText:名称"></label>
+                                    </div>
+                                    <div class="queryResultItemInfo">
+                                        <div class="queryResultItemBianhao">
+                                            <label>编号: </label><label data-win-bind="innerText:统一编号"></label>
+                                        </div>
+                                        <div class="queryResultItemWXRK">
+                                            <label>威胁人口: </label><label data-win-bind="innerText:威胁人口"></label>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -68,7 +79,7 @@
                         <div id="queryResultListView"
                              data-win-control="WinJS.UI.ListView"
                              data-win-options="{
-                                itemDataSource : disasterQuery.queryResultList.dataSource,
+                                itemDataSource : disasterQuery.queryResultCurrentList.dataSource,
                                 itemTemplate: select('#queryResultTemplate'),
                                 selectionMode: 'single',
                                 tapBehavior: 'directSelect',

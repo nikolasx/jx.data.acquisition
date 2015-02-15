@@ -106,30 +106,42 @@ WinJS.Namespace.define("AppUtil", {
     getTypeFromEnumToStr: function (enumVal) {
         var val = "未知";
         switch (enumVal) {
-            case "泥石流":
-                val = 1;
+            case 1:
+                val = "泥石流";
                 break;
-            case "地面塌陷":
-                val = 2;
+            case 2:
+                val = "地面塌陷";
                 break;
-            case "地裂缝":
-                val = 4;
+            case 4:
+                val = "地裂缝";
                 break;
-            case "滑坡":
-                val = 8;
+            case 8:
+                val = "滑坡";
                 break;
-            case "崩塌":
-                val = 16;
+            case 16:
+                val = "崩塌";
                 break;
-            case "地面沉降":
-                val = 32;
+            case 32:
+                val = "地面沉降";
                 break;
-            case "斜坡":
-                val = 64;
+            case 64:
+                val = "斜坡";
                 break;
             default:
         }
         return val;
+    },
+
+
+    //判断变量是否在数组中
+    isValueInArray: function (val, array) {
+        var res = false;
+        if ($.isArray(array)) {
+            res = array.some(function (item) {
+                return item == val;
+            });
+        }
+        return res;
     }
 
 });
