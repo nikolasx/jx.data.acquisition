@@ -61,6 +61,22 @@ WinJS.Namespace.define("AppUtil", {
         return networkState;
     },
 
+    //获取当前位置
+    getPosition: function (callback) {
+        var position = new Windows.Devices.Geolocation.Geolocator();
+        var promise = position.getGeopositionAsync();
+        promise.done(function (pos) {
+            var coord = pos.coordinate;
+            var ans = {
+                latitude: coord.latitude, //经度
+                longitude: coord.longitude,  //纬度
+                accuracy: coord.accuracy  //经度
+            };
+            callback(ans);
+        }, function (error) {
+            callback(null);
+        });
+    },
 
     //生成guid
     GUIDFactory: function () {
@@ -74,7 +90,7 @@ WinJS.Namespace.define("AppUtil", {
 
     //根据字符串将灾害类型转化成枚举值
     getTypeFromStrToEnum: function (str) {
-        var val = 0;
+        var val = -1;
         switch (str) {
             case "泥石流":
                 val = 1;
@@ -132,8 +148,7 @@ WinJS.Namespace.define("AppUtil", {
         return val;
     },
 
-
-    //判断变量是否在数组中
+    //判断值是否在数组中
     isValueInArray: function (val, array) {
         var res = false;
         if ($.isArray(array)) {
@@ -142,6 +157,20 @@ WinJS.Namespace.define("AppUtil", {
             });
         }
         return res;
+    },
+
+    //获取值在数组中的下标
+    getIndexInArray: function (val, array) {
+        var index = -1;
+        if ($.isArray(array)) {
+            for (var i = 0; i < array.length; i++) {
+                if (val == array[i]) {
+                    index = i;
+                    break;
+                }
+            }
+        }
+        return index;
     }
 
 });

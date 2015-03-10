@@ -16,7 +16,12 @@
 
         unload: function () {
         }
+
+
+
     });
+
+
 
     WinJS.Namespace.define("menuPage", {
 
@@ -48,6 +53,21 @@
             //查询显示
             $("#menuDisasterQuery").click(function () {
                 nav.navigate("/html/disasterquery/query.html");
+            });
+
+            //数据统计
+            $("#menuStatistic").click(function () {
+                nav.navigate("/html/disasterStatistic/statistic.html");
+            });
+
+            //群测群防
+            $("#menuQCQF").click(function () {
+                nav.navigate("/html/QCQF/qcqf/qcqf.html");
+            });
+
+            //遥感解译点
+            $("#remoteSensePoint").click(function () {
+                nav.navigate("/html/remoteSensePoint/remotesensepoint.html");
             });
 
         }

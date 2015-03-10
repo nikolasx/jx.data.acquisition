@@ -1,0 +1,135 @@
+﻿body {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+
+.wrapper {
+    width: 820px;
+    border: 1px solid #a0a0a0;
+    margin: 30px auto 50px;
+}
+
+.wrapper input {
+    border: none;
+    width: 96%;
+    display: block;
+    outline: none;
+    height: 100%;
+    text-indent: 5px;
+}
+
+header {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.jbqk {
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.leftTip {
+    width: 99px;
+    height: 100%;
+    border-right: 1px solid #a0a0a0;
+    float: left;
+}
+
+.leftTipContent {
+    display: block;
+    width: 36px;
+    margin-left: 32px;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.rightContent {
+    width: 720px;
+    height: 100%;
+    float: left;
+}
+
+.jtqk {
+    width: 100%;
+    height: 175px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.leftTipContent_jt {
+    margin-top: 40px;
+}
+
+.row {
+    width: 100%;
+    height: 34px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.tip {
+    height: 100%;
+    line-height: 34px;
+    width: 119px;
+    border-right: 1px solid #a0a0a0;
+    text-indent: 10px;
+    float: left;
+}
+
+.input1 {
+    width: 239px;
+    height: 100%;
+    line-height: 34px;
+    border-right: 1px solid #a0a0a0;
+    text-indent: 10px;
+    float: left;
+}
+
+.jcyj {
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.jbqk2 {
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.claz {
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.bkxx {
+    width: 100%;
+    height: 140px;
+}
+
+.jcyb {
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.yjbx {
+    width: 100%;
+    height: 210px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.attrTitle {
+    background-color: #DDEAFF;
+}

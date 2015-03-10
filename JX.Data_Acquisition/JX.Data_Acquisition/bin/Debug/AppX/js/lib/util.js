@@ -74,7 +74,7 @@ WinJS.Namespace.define("AppUtil", {
 
     //根据字符串将灾害类型转化成枚举值
     getTypeFromStrToEnum: function (str) {
-        var val = 0;
+        var val = -1;
         switch (str) {
             case "泥石流":
                 val = 1;
@@ -142,6 +142,20 @@ WinJS.Namespace.define("AppUtil", {
             });
         }
         return res;
+    },
+
+    //获取值在数组中的下标
+    getIndexInArray: function (val, array) {
+        var index = -1;
+        if ($.isArray(array)) {
+            for (var i = 0; i < array.length; i++) {
+                if (val == array[i]) {
+                    index = i;
+                    break;
+                }
+            }
+        }
+        return index;
     }
 
 });

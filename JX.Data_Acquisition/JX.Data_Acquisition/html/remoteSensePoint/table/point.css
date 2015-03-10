@@ -1,0 +1,253 @@
+﻿
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 微软雅黑;
+}
+
+.wrapper {
+    width: 820px;
+    height: auto;
+    border: 1px solid #A0A0A0;
+    margin: 30px auto 50px;
+}
+
+    .wrapper input {
+        border: none;
+        width: 96%;
+        display: block;
+        outline: none;
+        height: 100%;
+        text-indent: 5px;
+        background-color: #f2f2f2;
+    }
+    .wrapper textarea {
+        width: 94%;
+        height: 96%;
+        padding: 3px;
+        line-height: 25px;
+        border: none;
+    }
+
+.outerTab {
+    width: 100%;
+    text-align: center;
+}
+
+
+.row1, .row2, .row16 {
+    width: 100%;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.col1, .col4, .col8, .col9, .col12, .col4_1, .col1_4 {
+    height: 30px;
+    float: left;
+    border-right: 1px solid #a0a0a0;
+    text-indent: 10px;
+    line-height: 30px;
+}
+
+.col1 {
+    width: 3.87%;
+}
+
+.col1_4 {
+    width: 8.08%;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.col2 {
+    width: 7.87%;
+}
+
+.col4 {
+    width: 15.87%;
+}
+
+.col8 {
+    width: 31.87%;
+}
+
+.col4_1 {
+    width: 33.08%;
+}
+
+.col9 {
+    width: 35.87%;
+}
+
+.col12 {
+    width: 47.87%;
+}
+
+.col25 {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.row1 {
+    height: 30px;
+}
+
+.row2 {
+    height: 60px;
+    line-height: 60px;
+}
+
+.row4 {
+    height: 120px;
+}
+
+.row16 {
+    height: 487px;
+}
+
+.position {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.positionTip {
+    width: 40px;
+    height: 100%;
+    text-align: right;
+    border-right: 1px solid #a0a0a0;
+    letter-spacing: 15px;
+    line-height: 30px;
+    float: left;
+}
+
+.positionContent {
+    width: 351px;
+    float: left;
+    height: 100%;
+}
+
+.positionRow {
+    width: 100%;
+    height: 29px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+    .positionRow:nth-child(4) {
+        border-bottom: none;
+        height: 30px;
+    }
+
+.positionRowTip {
+    width: 88px;
+    height: 29px;
+    line-height: 30px;
+    text-align: center;
+    border-right: 1px solid #a0a0a0;
+    float: left;
+}
+
+.disType {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.disTypeBox,
+.remoteSenseAttrBox {
+    width: 348px;
+    height: 88px;
+    float: left;
+}
+
+.remoteSenseAttrBox {
+    height: 118px;
+}
+
+.disTypeRadio {
+    width: 100px;
+    height: 25px;
+    float: left;
+    font-size: 14px;
+}
+
+    .disTypeRadio input {
+        display: inline;
+        width: 14px;
+        height: 14px;
+    }
+
+    .disTypeRadio label {
+        vertical-align: middle;
+    }
+
+.disTypeTip {
+    width: 40px;
+    height: 100%;
+    text-align: right;
+    border-right: 1px solid #a0a0a0;
+    letter-spacing: 15px;
+    line-height: 22px;
+    float: left;
+}
+
+.remoteSenseAttr {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.remoteSenseAttrTip {
+    width: 40px;
+    height: 100%;
+    text-align: right;
+    border-right: 1px solid #a0a0a0;
+    letter-spacing: 15px;
+    line-height: 18px;
+    float: left;
+}
+
+.jieyijieguo, .yewai {
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid #a0a0a0;
+}
+
+.jieyijieguoTip, .yewaiTip {
+    width: 40px;
+    height: 100%;
+    text-align: right;
+    border-right: 1px solid #a0a0a0;
+    letter-spacing: 15px;
+    line-height: 30px;
+    float: left;
+}
+
+.yewaiTip {
+    line-height: 20px;
+}
+
+.info1 {
+    width: 260px;
+    height: 29px;
+    float: left;
+}
+
+.theBottomBox {
+    width: 776px;
+    height: 118px;
+    float: left;
+}
+
+.attrTitle {
+    background-color: #DDEAFF;
+}

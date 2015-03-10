@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
+    <title>滑坡</title>
     <link href="../Disaster5WInfo/CSS/common.css" rel="stylesheet" />
     <script src="../../js/lib/jquery-1.11.1.min.js"></script>
     <script src="../../js/lib/Calender/lhgcalendar.js"></script>
@@ -13,7 +13,7 @@
         $(document).ready(function () {
             eventInitialize();
         });
-    </script> 
+    </script>
 </head>
 <body>
     <div id="disasterHP_Main" class="mainWindow">
@@ -26,43 +26,41 @@
                 <div style="display: none;" id="disasterType">滑坡</div>
             </div>
         </div>
-        <div id="infoPageChart1" >
-
+        <div id="infoPageChart1" class="infoPageChart">
             <div style="height: 30px; width: 100%; border-bottom: 1px solid #cecece;">
-                <div class="chart1CommonS">项目名称</div>
-                <div class="chart1CommonS1" style="width: 138px;background-color:#ffffff;">
+                <div class="chart1CommonS" style="width: 70px;">项目名称</div>
+                <div class="chart1CommonS1" style="width: 137px; background-color: #ffffff;">
                     <input type="text" id="xiangmumingcheng" class="textCommonS" />
                 </div>
                 <div class="chart1CommonS">图幅名</div>
-                <div class="chart1CommonS1" style="width: 138px;background-color:#ffffff;">
+                <div class="chart1CommonS1" style="width: 138px; background-color: #ffffff;">
                     <input type="text" id="tufuming" class="textCommonS" />
                 </div>
                 <div class="chart1CommonS">图幅编号</div>
-                <div class="chart1CommonS1" style="width: 232px; border: none;background-color:#ffffff;">
+                <div class="chart1CommonS1" style="width: 232px; border: none; background-color: #ffffff;">
                     <input type="text" id="tufubianhao" class="textCommonS" />
                 </div>
             </div>
-
             <div style="height: 124px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS2" style="width: 278px;">
                     <div class="chart1CommonS2" style="width: 100%; height: 30px; border-right: none; border-bottom: 1px solid #cecece;">
-                        <div class="chart1CommonS" style="border-bottom: none;">名称</div>
-                        <div class="chart1CommonS1" style="width: 208px; border: none;background-color:#ffffff;">
+                        <div class="chart1CommonS" style="border-bottom: none; width: 70px;">名称</div>
+                        <div class="chart1CommonS1" style="width: 207px; border: none; background-color: #ffffff;">
                             <input type="text" id="mingcheng" class="textCommonS" />
                         </div>
                     </div>
                     <div class="chart1CommonS2" style="width: 142px; border: none; height: 93px; border-right: 1px solid #cecece;">
-                        <div class="chart1CommonS" style="border-bottom: 1px solid #cecece;">野外编号</div>
-                        <div class="chart1CommonS1" style="width: 72px; border: none; border-bottom: 1px solid #cecece;">
-                            <input type="text" id="yewaibianhao" class="textCommonS" style="width:97%" />
+                        <div class="chart1CommonS" style="border-bottom: 1px solid #cecece; width: 70px;">野外编号</div>
+                        <div class="chart1CommonS1" style="width: 71px; border: none; border-bottom: 1px solid #cecece;">
+                            <input type="text" id="yewaibianhao" class="textCommonS" style="width: 97%" />
                         </div>
-                        <div class="chart1CommonS" style="border-bottom: 1px solid #cecece;">统一编号</div>
-                        <div class="chart1CommonS1" style="width: 72px; border: none; border-bottom: 1px solid #cecece;">
-                            <input type="text" id="tongyibianhao" class="textCommonS" disabled="disabled" style="font-size: 9px;width:97%"  />
+                        <div class="chart1CommonS" style="border-bottom: 1px solid #cecece; width: 70px;">统一编号</div>
+                        <div class="chart1CommonS1" style="width: 71px; border: none; border-bottom: 1px solid #cecece;">
+                            <input type="text" id="tongyibianhao" class="textCommonS" disabled="disabled" style="font-size: 9px; width: 97%" />
                         </div>
-                        <div class="chart1CommonS" style="height: 31px;">市县编号</div>
-                        <div class="chart1CommonS1" style="width: 72px; border: none; height: 31px;">
-                            <input type="text" id="shixianbianhao" class="textCommonS" style="height: 29px;width:97%" />
+                        <div class="chart1CommonS" style="height: 31px; width: 70px;">室内编号</div>
+                        <div class="chart1CommonS1" style="width: 71px; border: none; height: 31px;">
+                            <input type="text" id="shixianbianhao" class="textCommonS" style="height: 29px; width: 97%" />
                         </div>
                     </div>
                     <div class="chart1CommonS2 fontCommonS" style="width: 30px; border: none; height: 93px; border-right: 1px solid #cecece;">
@@ -83,37 +81,37 @@
                                 <span class="fontCommonSpan">现代滑坡</span>
                             </div>
                         </div>
-                        <div class="chart1CommonS1" style="width: 104px; border: none; height: 30px; background-color:#ffffff;">
-                            <input type="text" id="huaposhijian" class="textCommonS timeCellAll" style="width:98%; height: 28px;" />
+                        <div class="chart1CommonS1" style="width: 104px; border: none; height: 30px; background-color: #ffffff;">
+                            <input type="text" id="huaposhijian" class="textCommonS timeCellAll" style="width: 98%; height: 28px;" />
                         </div>
                     </div>
                 </div>
                 <div class="chart1CommonS2 fontCommonS" style="width: 70px; line-height: 120px;">地理位置</div>
                 <div class="chart1CommonS2" style="width: 370px; border: none;">
                     <div class="chart1CommonS2" style="width: 100%; height: 31px; border-right: none; border-bottom: 1px solid #cecece;">
-                        <div class="chart1CommonS1" style="width: 77px;height: 31px; border: none; border-right: 1px solid #cecece;background-color:#ffffff;">
+                        <div class="chart1CommonS1" style="width: 77px; height: 31px; border: none; border-right: 1px solid #cecece; background-color: #ffffff;">
                             <input type="text" id="sheng" class="textCommonS" style="height: 28px;" />
                         </div>
                         <div class="chart1CommonS" style="width: 30px;">省</div>
-                        <div class="chart1CommonS1" style="width: 77px;height: 31px; border: none; border-right: 1px solid #cecece;background-color:#ffffff;">
+                        <div class="chart1CommonS1" style="width: 77px; height: 31px; border: none; border-right: 1px solid #cecece; background-color: #ffffff;">
                             <input type="text" id="shixian" class="textCommonS" style="height: 28px;" />
                         </div>
                         <div class="chart1CommonS" style="width: 60px;">县（市）</div>
-                        <div class="chart1CommonS1" style="width: 77px; height: 31px;border: none; border-right: 1px solid #cecece;background-color:#ffffff;">
+                        <div class="chart1CommonS1" style="width: 77px; height: 31px; border: none; border-right: 1px solid #cecece; background-color: #ffffff;">
                             <input type="text" id="xiangzhen" class="textCommonS" style="height: 28px;" />
                         </div>
                         <div class="chart1CommonS" style="width: 31px; border: none;">乡</div>
                     </div>
                     <div class="chart1CommonS2" style="width: 100%; height: 31px; border-right: none; border-bottom: 1px solid #cecece;">
-                        <div class="chart1CommonS1" style="width: 77px;height: 31px;background-color:#ffffff; border: none; border-right: 1px solid #cecece;">
+                        <div class="chart1CommonS1" style="width: 77px; height: 31px; background-color: #ffffff; border: none; border-right: 1px solid #cecece;">
                             <input type="text" id="cun" class="textCommonS" style="height: 28px;" />
                         </div>
                         <div class="chart1CommonS" style="width: 30px;">村</div>
-                        <div class="chart1CommonS1" style="width: 77px;height: 31px;background-color:#ffffff; border: none; border-right: 1px solid #cecece;">
+                        <div class="chart1CommonS1" style="width: 77px; height: 31px; background-color: #ffffff; border: none; border-right: 1px solid #cecece;">
                             <input type="text" id="zu" class="textCommonS" style="height: 28px;" />
                         </div>
                         <div class="chart1CommonS" style="width: 60px;">组</div>
-                        <div class="chart1CommonS1" style="width: 122px;height: 31px;background-color:#ffffff; border: none;">
+                        <div class="chart1CommonS1" style="width: 122px; height: 31px; background-color: #ffffff; border: none;">
                             <input type="text" id="qita" class="textCommonS" style="height: 28px;" />
                         </div>
                     </div>
@@ -123,11 +121,11 @@
                         <div class="chart1CommonS2 fontCommonS" style="width: 40px; height: 31px; line-height: 30px; border: none;">纬度</div>
                     </div>
                     <div class="chart1CommonS2" style="width: 85px; height: 62px;">
-                        <div class="chart1CommonS2" style="width: 85px; height: 30px;  line-height: none; border: none; border-bottom: 1px solid #cecece;background-color:#ffffff;">
-                            <input type="text" id="jingdu" class="textCommonS" style="height: 28px;line-height:27px;" />
+                        <div class="chart1CommonS2" style="width: 85px; height: 30px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
+                            <input type="text" id="jingdu" class="textCommonS" style="height: 28px; line-height: 27px;" />
                         </div>
                         <div class="chart1CommonS2" style="width: 85px; height: 30px; line-height: none; border: none;">
-                            <input type="text" id="weidu" class="textCommonS" style="height: 27px; line-height:none;" />
+                            <input type="text" id="weidu" class="textCommonS" style="height: 27px; line-height: none;" />
                         </div>
                     </div>
                     <div class="chart1CommonS2 fontCommonS" style="width: 50px; height: 62px; line-height: 60px;">标高(m)</div>
@@ -145,10 +143,9 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 30px; width: 100%; border-bottom: 1px solid #cecece;">
-                <div class="chart1CommonS">滑坡类型</div>
-                <div class="chart1CommonS1" style="width: 279px; background-color: #ffffff;">
+                <div class="chart1CommonS" style="width: 70px;">滑坡类型</div>
+                <div class="chart1CommonS1" style="width: 278px; background-color: #ffffff;">
                     <div style="position: relative; top: 3px; height: 30px; left: 5px;">
                         <input type="radio" id="huapoleixing1" name="huapoleixing" value="推移式滑坡" title="推移式滑坡" />
                         <span class="fontCommonSpan" style="font-size: 12px;">推移式滑坡</span>
@@ -170,7 +167,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 93px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 93px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 93px; border-bottom: 1px solid #cecece; text-align: center; line-height: 20px;">
@@ -182,11 +178,11 @@
                     <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">地层岩性</div>
                     <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">岩性</div>
                     <div class="chart1CommonS" style="width: 60px; height: 30px; border: none; border-bottom: 1px solid #cecece;">时代</div>
-                    <div class="chart1CommonS" style="width: 59px; height: 31px; background-color:#ffffff;">
-                        <input type="text" id="yanxing" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 59px; height: 31px; background-color: #ffffff;">
+                        <input type="text" id="yanxing" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
-                    <div class="chart1CommonS" style="width: 60px; height: 31px; border: none; background-color:#ffffff;">
-                        <input type="text" id="shidai" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 60px; height: 31px; border: none; background-color: #ffffff;">
+                        <input type="text" id="shidai" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                 </div>
                 <div class="chart1CommonS" style="width: 185px; height: 93px; border-bottom: 1px solid #cecece;">
@@ -195,16 +191,16 @@
                     <div class="chart1CommonS" style="width: 51px; height: 30px; border-bottom: 1px solid #cecece;">构造部位</div>
                     <div class="chart1CommonS" style="width: 57px; height: 30px; border: none; border-bottom: 1px solid #cecece;">地震烈度</div>
                     <div class="chart1CommonS" style="width: 75px; height: 30px; background-color: #ffffff;">
-                        <div class="chart1CommonS" style="width: 30px; height: 31px; border: none;background-color:#ffffff;">
-                            <input type="text" id="chanzhuang1" class="textCommonS" style="height: 28px;width:97%;" />
+                        <div class="chart1CommonS" style="width: 30px; height: 31px; border: none; background-color: #ffffff;">
+                            <input type="text" id="chanzhuang1" class="textCommonS" style="height: 28px; width: 97%;" />
                         </div>
                         <div class="chart1CommonS" style="width: 14px; height: 31px; border: none; background-color: #ffffff;">∠</div>
-                        <div class="chart1CommonS" style="width: 30px; height: 31px; border: none;background-color:#ffffff;">
-                            <input type="text" id="chanzhuang2" class="textCommonS" style="height: 28px;width:97%;" />
+                        <div class="chart1CommonS" style="width: 30px; height: 31px; border: none; background-color: #ffffff;">
+                            <input type="text" id="chanzhuang2" class="textCommonS" style="height: 28px; width: 97%;" />
                         </div>
                     </div>
-                    <div class="chart1CommonS" style="width: 51px; height: 31px;background-color:#ffffff;">
-                        <input type="text" id="gouzaobuwei" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 51px; height: 31px; background-color: #ffffff;">
+                        <input type="text" id="gouzaobuwei" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 57px; height: 31px; border: none; background-color: #ffffff;">
                         <select id="dizhenliedu" style="margin-top: 4px;">
@@ -227,7 +223,7 @@
                 <div class="chart1CommonS" style="width: 150px; height: 93px; border-bottom: 1px solid #cecece;">
                     <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">微地貌</div>
                     <div class="chart1CommonS" style="width: 100%; height: 62px; border: none; background-color: #ffffff;">
-                        <div style="width: 95px; margin-top: 4px;margin-left:25px;">
+                        <div style="width: 95px; margin-top: 4px; margin-left: 25px;">
                             <input type="checkbox" name="weidimao" value="陡崖" title="陡崖" /><span>陡崖</span>
                             <input type="checkbox" name="weidimao" value="陡坡" title="陡坡" /><span>陡坡</span>
                             <input type="checkbox" name="weidimao" value="缓坡" title="缓坡" /><span>缓坡</span>
@@ -238,7 +234,7 @@
                 <div class="chart1CommonS" style="width: 191px; height: 93px; border: none; border-bottom: 1px solid #cecece;">
                     <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">地下水类型</div>
                     <div class="chart1CommonS" style="width: 100%; height: 62px; border: none; background-color: #ffffff;">
-                        <div style="margin-top: 4px;margin-left:5px;">
+                        <div style="margin-top: 4px; margin-left: 5px;">
                             <input type="checkbox" name="dixiashuileixing" value="孔隙水" title="孔隙水" /><span>孔隙水</span>
                             <input type="checkbox" name="dixiashuileixing" value="裂隙水" title="裂隙水" /><span>裂隙水</span>
                             <input type="checkbox" name="dixiashuileixing" value="岩溶水" title="岩溶水" /><span>岩溶水</span>
@@ -249,7 +245,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 93px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 93px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 93px; border-bottom: 1px solid #cecece; text-align: center; line-height: 20px;">
@@ -264,14 +259,14 @@
                     <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">年均</div>
                     <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">日最大</div>
                     <div class="chart1CommonS" style="width: 60px; height: 30px; border: none; border-bottom: 1px solid #cecece;">时最大</div>
-                    <div class="chart1CommonS" style="width: 59px; height: 31px;background-color:#ffffff;">
-                        <input type="text" id="nianjunjiangyuliang" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 59px; height: 31px; background-color: #ffffff;">
+                        <input type="text" id="nianjunjiangyuliang" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
-                    <div class="chart1CommonS" style="width: 59px; height: 31px;background-color:#ffffff;">
-                        <input type="text" id="rizuidajiangyuliang" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 59px; height: 31px; background-color: #ffffff;">
+                        <input type="text" id="rizuidajiangyuliang" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
-                    <div class="chart1CommonS" style="width: 60px; height: 31px; border: none;background-color:#ffffff;">
-                        <input type="text" id="shizuidajiangyuliang" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 60px; height: 31px; border: none; background-color: #ffffff;">
+                        <input type="text" id="shizuidajiangyuliang" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                 </div>
                 <div class="chart1CommonS" style="width: 468px; height: 93px; border: none; border-bottom: 1px solid #cecece;">
@@ -279,11 +274,11 @@
                     <div class="chart1CommonS" style="width: 120px; height: 30px; border-bottom: 1px solid #cecece;">洪水位（m）</div>
                     <div class="chart1CommonS" style="width: 120px; height: 30px; border-bottom: 1px solid #cecece;">枯水位（m）</div>
                     <div class="chart1CommonS" style="width: 226px; height: 30px; border: none; border-bottom: 1px solid #cecece;">斜坡与河流位置</div>
-                    <div class="chart1CommonS" style="width: 120px; height: 31px;background-color:#ffffff;">
-                        <input type="text" id="hongshuiwei" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 120px; height: 31px; background-color: #ffffff;">
+                        <input type="text" id="hongshuiwei" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
-                    <div class="chart1CommonS" style="width: 120px; height: 31px;background-color:#ffffff;">
-                        <input type="text" id="kushuiwei" class="textCommonS" style="height: 28px;width:97%;" />
+                    <div class="chart1CommonS" style="width: 120px; height: 31px; background-color: #ffffff;">
+                        <input type="text" id="kushuiwei" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 112px; height: 31px; background-color: #ffffff;">
                         <div style="position: relative; top: 3px; height: 30px; left: -2px;">
@@ -303,176 +298,175 @@
                     </div>
                 </div>
             </div>
-        <div style="height: 155px; width: 100%;">
-            <div class="chart1CommonS" style="width: 29px; height: 155px; border-bottom: 1px solid #cecece;">
-                <div style="position: relative; top: -70px;">
-                    滑<br />
-                    坡<br />
-                    环<br />
-                    境
+            <div style="height: 155px; width: 100%;">
+                <div class="chart1CommonS" style="width: 29px; height: 155px; border-bottom: 1px solid #cecece;">
+                    <div style="position: relative; top: -70px;">
+                        滑<br />
+                        坡<br />
+                        环<br />
+                        境
+                    </div>
+                </div>
+                <div class="chart1CommonS" style="width: 40px; height: 155px; border-bottom: 1px solid #cecece; text-align: center; line-height: 20px;">
+                    <div style="margin-top: 55px;">
+                        原始<br>
+                        斜坡
+                    </div>
+                </div>
+                <div class="chart1CommonS" style="width: 119px; height: 155px; border-bottom: 1px solid #cecece;">
+                    <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">坡高(m)</div>
+                    <div class="chart1CommonS" style="width: 59px; height: 30px; border: none; border-bottom: 1px solid #cecece;">坡度(°)</div>
+                    <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">
+                        <input type="text" id="pogao" class="textCommonS" style="height: 28px; width: 97%;" />
+                    </div>
+                    <div class="chart1CommonS" style="width: 59px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                        <input type="text" id="podu" class="textCommonS" style="height: 28px; width: 97%;" />
+                    </div>
+                    <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">坡形</div>
+                    <div class="chart1CommonS" style="width: 100%; height: 62px; background-color: #ffffff; border: none;">
+                        <div style="position: relative; top: 3px; height: 30px; left: -2px;">
+                            <input type="radio" name="poxing" value="凹形" title="凹形" />
+                            <span class="fontCommonSpan" style="font-size: 12px;">凹形</span>
+                            <input type="radio" name="poxing" value="凸形" title="凸形" />
+                            <span class="fontCommonSpan" style="font-size: 12px;">凸形</span>
+                            <input type="radio" name="poxing" value="平直" title="平直" />
+                            <span class="fontCommonSpan" style="font-size: 12px;">平直</span>
+                            <input type="radio" name="poxing" value="阶形" title="阶形" />
+                            <span class="fontCommonSpan" style="font-size: 12px;">阶形</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart1CommonS" style="width: 181px; height: 155px; border-bottom: 1px solid #cecece;">
+                    <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">斜坡结构类型</div>
+                    <div class="chart1CommonS" style="width: 100%; height: 62px; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
+                        <div style="position: relative; top: 2px; height: 20px; left: 0px;">
+                            <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width: 9px; height: 9px;" value="碎屑岩斜坡" title="碎屑岩斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">碎屑岩斜坡</span>
+                            <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width: 9px; height: 9px; margin-left: -1px;" value="碳酸岩斜坡" title="碳酸岩斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">碳酸岩斜坡</span>
+                            <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width: 9px; height: 9px; margin-left: -1px;" value="土质斜坡" title="土质斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">土质斜坡</span>
+                            <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width: 9px; height: 9px;" value="变质岩斜坡" title="变质岩斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px;">变质岩斜坡</span>
+                            <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width: 9px; height: 9px;" value="结晶岩土斜坡" title="结晶岩土斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px;">结晶岩土斜坡</span>
+                        </div>
+                    </div>
+                    <div class="chart1CommonS" style="width: 100%; height: 61px; border: none; background-color: #ffffff;">
+                        <div style="position: relative; top: 2px; height: 40px; left: 0px;">
+                            <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width: 9px; height: 9px;" value="平缓层状斜坡" title="平缓层状斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">平缓层状斜坡</span>
+                            <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width: 9px; height: 9px; margin-left: -1px;" value="顺向斜坡" title="顺向斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">顺向斜坡</span>
+                            <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width: 9px; height: 9px; margin-left: -1px;" value="横向斜坡" title="横向斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">横向斜坡</span>
+                            <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width: 9px; height: 9px;" value="特殊结构斜坡" title="特殊结构斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">特殊结构斜坡</span>
+                            <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width: 9px; height: 9px; margin-left: -1px;" value="斜向斜坡" title="斜向斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">斜向斜坡</span>
+                            <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width: 9px; height: 9px; margin-left: -1px;" value="反向斜坡" title="反向斜坡" />
+                            <span class="fontCommonSpan" style="font-size: 9px; margin-left: -3px;">反向斜坡</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart1CommonS" style="width: 347px; height: 155px; border: none; border-bottom: 1px solid #cecece;">
+                    <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">控滑面结构</div>
+                    <div class="chart1CommonS" style="width: 40px; height: 124px; line-height: 120px;">类型</div>
+                    <div class="chart1CommonS" style="width: 120px; height: 124px; background-color: #ffffff;">
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                            <select id="konghuamianjiegouleixing1" style="margin-top: 4px; width: 110px;">
+                                <option value=""></option>
+                                <option value="层理面">层理面</option>
+                                <option value="片理或壁理面">片理或壁理面</option>
+                                <option value="节理裂隙面">节理裂隙面</option>
+                                <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
+                                <option value="层内错动带">层内错动带</option>
+                                <option value="构造错动带">构造错动带</option>
+                                <option value="断层">断层</option>
+                                <option value="老滑面">老滑面</option>
+                            </select>
+                        </div>
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                            <select id="konghuamianjiegouleixing2" style="margin-top: 4px; width: 110px;">
+                                <option value=""></option>
+                                <option value="层理面">层理面</option>
+                                <option value="片理或壁理面">片理或壁理面</option>
+                                <option value="节理裂隙面">节理裂隙面</option>
+                                <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
+                                <option value="层内错动带">层内错动带</option>
+                                <option value="构造错动带">构造错动带</option>
+                                <option value="断层">断层</option>
+                                <option value="老滑面">老滑面</option>
+                            </select>
+                        </div>
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                            <select id="konghuamianjiegouleixing3" style="margin-top: 4px; width: 110px;">
+                                <option value=""></option>
+                                <option value="层理面">层理面</option>
+                                <option value="片理或壁理面">片理或壁理面</option>
+                                <option value="节理裂隙面">节理裂隙面</option>
+                                <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
+                                <option value="层内错动带">层内错动带</option>
+                                <option value="构造错动带">构造错动带</option>
+                                <option value="断层">断层</option>
+                                <option value="老滑面">老滑面</option>
+                            </select>
+                        </div>
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none;">
+                            <select id="konghuamianjiegouleixing4" style="margin-top: 4px; width: 110px;">
+                                <option value=""></option>
+                                <option value="层理面">层理面</option>
+                                <option value="片理或壁理面">片理或壁理面</option>
+                                <option value="节理裂隙面">节理裂隙面</option>
+                                <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
+                                <option value="层内错动带">层内错动带</option>
+                                <option value="构造错动带">构造错动带</option>
+                                <option value="断层">断层</option>
+                                <option value="老滑面">老滑面</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="chart1CommonS" style="width: 40px; height: 124px; line-height: 120px;">产状</div>
+                    <div class="chart1CommonS" style="width: 144px; height: 124px; border: none; background-color: #ffffff;">
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang11" class="textCommonS" style="height: 28px;" />
+                            </div>
+                            <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang12" class="textCommonS" style="height: 28px;" />
+                            </div>
+                        </div>
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang21" class="textCommonS" style="height: 28px;" />
+                            </div>
+                            <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang22" class="textCommonS" style="height: 28px;" />
+                            </div>
+                        </div>
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang31" class="textCommonS" style="height: 28px;" />
+                            </div>
+                            <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang32" class="textCommonS" style="height: 28px;" />
+                            </div>
+                        </div>
+                        <div class="chart1commons" style="width: 100%; height: 30px; border: none;">
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang41" class="textCommonS" style="height: 28px;" />
+                            </div>
+                            <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
+                            <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
+                                <input type="text" id="konghuamianjiegouchanzhuang42" class="textCommonS" style="height: 28px;" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="chart1CommonS" style="width: 40px; height: 155px; border-bottom: 1px solid #cecece; text-align: center; line-height: 20px;">
-                <div style="margin-top: 55px;">
-                    原始<br>
-                    斜坡
-                </div>
-            </div>
-            <div class="chart1CommonS" style="width: 119px; height: 155px; border-bottom: 1px solid #cecece;">
-                <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">坡高(m)</div>
-                <div class="chart1CommonS" style="width: 59px; height: 30px; border: none; border-bottom: 1px solid #cecece;">坡度(°)</div>
-                <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">
-                    <input type="text" id="pogao" class="textCommonS" style="height: 28px;width:97%;" />
-                </div>
-                <div class="chart1CommonS" style="width: 59px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                    <input type="text" id="podu" class="textCommonS" style="height: 28px;width:97%;" />
-                </div>
-                <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">坡形</div>
-                <div class="chart1CommonS" style="width: 100%; height: 62px; background-color: #ffffff; border: none;">
-                    <div style="position: relative; top: 3px; height: 30px; left: -2px;">
-                        <input type="radio" name="poxing" value="凹形" title="凹形" />
-                        <span class="fontCommonSpan" style="font-size: 12px;">凹形</span>
-                        <input type="radio" name="poxing" value="凸形" title="凸形" />
-                        <span class="fontCommonSpan" style="font-size: 12px;">凸形</span>
-                        <input type="radio" name="poxing" value="平直" title="平直" />
-                        <span class="fontCommonSpan" style="font-size: 12px;">平直</span>
-                        <input type="radio" name="poxing" value="阶形" title="阶形" />
-                        <span class="fontCommonSpan" style="font-size: 12px;">阶形</span>
-                    </div>
-                </div>
-            </div>
-            <div class="chart1CommonS" style="width: 181px; height: 155px; border-bottom: 1px solid #cecece;">
-                <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">斜坡结构类型</div>
-                <div class="chart1CommonS" style="width: 100%; height: 62px; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
-                    <div style="position: relative; top: 2px; height: 20px; left: 0px;">
-                        <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width:9px;height:9px;" value="碎屑岩斜坡" title="碎屑岩斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px; margin-left:-3px;">碎屑岩斜坡</span>
-                        <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width:9px;height:9px; margin-left:-1px;" value="碳酸岩斜坡" title="碳酸岩斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">碳酸岩斜坡</span>
-                        <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width:9px;height:9px;margin-left:-1px;" value="土质斜坡" title="土质斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">土质斜坡</span>
-                        <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width:9px;height:9px;" value="变质岩斜坡" title="变质岩斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;">变质岩斜坡</span>
-                        <input type="radio" name="xipojiegouleixing1" class="radioStyle1" style="width:9px;height:9px;" value="结晶岩土斜坡" title="结晶岩土斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;">结晶岩土斜坡</span>
-                    </div>
-                </div>
-                <div class="chart1CommonS" style="width: 100%; height: 61px; border: none; background-color: #ffffff;">
-                    <div style="position: relative; top: 2px; height: 40px; left: 0px;">
-                        <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width:9px;height:9px;" value="平缓层状斜坡" title="平缓层状斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">平缓层状斜坡</span>
-                        <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width:9px;height:9px; margin-left:-1px;" value="顺向斜坡" title="顺向斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">顺向斜坡</span>
-                        <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width:9px;height:9px; margin-left:-1px;" value="横向斜坡" title="横向斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">横向斜坡</span>
-                        <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width:9px;height:9px; " value="特殊结构斜坡" title="特殊结构斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">特殊结构斜坡</span>
-                        <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width:9px;height:9px; margin-left:-1px;" value="斜向斜坡" title="斜向斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">斜向斜坡</span>
-                        <input type="radio" name="xipojiegouleixing2" class="radioStyle1" style="width:9px;height:9px; margin-left:-1px;" value="反向斜坡" title="反向斜坡" />
-                        <span class="fontCommonSpan" style="font-size: 9px;margin-left:-3px;">反向斜坡</span>
-                    </div>
-                </div>
-            </div>
-            <div class="chart1CommonS" style="width: 347px; height: 155px; border: none; border-bottom: 1px solid #cecece;">
-                <div class="chart1CommonS" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">控滑面结构</div>
-                <div class="chart1CommonS" style="width: 40px; height: 124px; line-height: 120px;">类型</div>
-                <div class="chart1CommonS" style="width: 120px; height: 124px; background-color: #ffffff;">
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <select id="konghuamianjiegouleixing1" style="margin-top: 4px; width: 110px;">
-                            <option value=""></option>
-                            <option value="层理面">层理面</option>
-                            <option value="片理或壁理面">片理或壁理面</option>
-                            <option value="节理裂隙面">节理裂隙面</option>
-                            <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
-                            <option value="层内错动带">层内错动带</option>
-                            <option value="构造错动带">构造错动带</option>
-                            <option value="断层">断层</option>
-                            <option value="老滑面">老滑面</option>
-                        </select>
-                    </div>
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <select id="konghuamianjiegouleixing2" style="margin-top: 4px; width: 110px;">
-                            <option value=""></option>
-                            <option value="层理面">层理面</option>
-                            <option value="片理或壁理面">片理或壁理面</option>
-                            <option value="节理裂隙面">节理裂隙面</option>
-                            <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
-                            <option value="层内错动带">层内错动带</option>
-                            <option value="构造错动带">构造错动带</option>
-                            <option value="断层">断层</option>
-                            <option value="老滑面">老滑面</option>
-                        </select>
-                    </div>
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <select id="konghuamianjiegouleixing3" style="margin-top: 4px; width: 110px;">
-                            <option value=""></option>
-                            <option value="层理面">层理面</option>
-                            <option value="片理或壁理面">片理或壁理面</option>
-                            <option value="节理裂隙面">节理裂隙面</option>
-                            <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
-                            <option value="层内错动带">层内错动带</option>
-                            <option value="构造错动带">构造错动带</option>
-                            <option value="断层">断层</option>
-                            <option value="老滑面">老滑面</option>
-                        </select>
-                    </div>
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none;">
-                        <select id="konghuamianjiegouleixing4" style="margin-top: 4px; width: 110px;">
-                            <option value=""></option>
-                            <option value="层理面">层理面</option>
-                            <option value="片理或壁理面">片理或壁理面</option>
-                            <option value="节理裂隙面">节理裂隙面</option>
-                            <option value="覆盖层与基岩接触面">覆盖层与基岩接触面</option>
-                            <option value="层内错动带">层内错动带</option>
-                            <option value="构造错动带">构造错动带</option>
-                            <option value="断层">断层</option>
-                            <option value="老滑面">老滑面</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="chart1CommonS" style="width: 40px; height: 124px; line-height: 120px;">产状</div>
-                <div class="chart1CommonS" style="width: 144px; height: 124px; border: none; background-color: #ffffff;">
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang11" class="textCommonS" style="height: 28px;" />
-                        </div>
-                        <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang12" class="textCommonS" style="height: 28px;" />
-                        </div>
-                    </div>
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang21" class="textCommonS" style="height: 28px;" />
-                        </div>
-                        <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang22" class="textCommonS" style="height: 28px;" />
-                        </div>
-                    </div>
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang31" class="textCommonS" style="height: 28px;" />
-                        </div>
-                        <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang32" class="textCommonS" style="height: 28px;" />
-                        </div>
-                    </div>
-                    <div class="chart1commons" style="width: 100%; height: 30px; border: none;">
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang41" class="textCommonS" style="height: 28px;" />
-                        </div>
-                        <div class="chart1CommonS" style="width: 14px; height: 30px; border: none; background-color: #ffffff;">∠</div>
-                        <div class="chart1CommonS" style="width: 64px; height: 30px; border: none;">
-                            <input type="text" id="konghuamianjiegouchanzhuang42" class="textCommonS" style="height: 28px;" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
             <div style="height: 124px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 124px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 124px; border-bottom: 1px solid #cecece; text-align: center; line-height: 20px;">
@@ -491,28 +485,28 @@
                     <div class="chart1CommonS" style="width: 71px; height: 30px; border-bottom: 1px solid #cecece;">坡度(°)</div>
                     <div class="chart1CommonS" style="width: 72px; height: 30px; border: none; border-bottom: 1px solid #cecece;">坡向(°)</div>
                     <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixingchangdu" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixingchangdu" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixingkuandu" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixingkuandu" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 60px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixinghoudu" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixinghoudu" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 60px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixingmianji" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixingmianji" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 59px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixingtiji" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixingtiji" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
-                    <div class="chart1CommonS" style="width: 202px; height: 30px; border-bottom: 1px solid #cecece; background-color:#ffffff;">
-                        <input type="text" id="waixingguimodengji" class="textCommonS" style="height: 28px;width:98%;" />
+                    <div class="chart1CommonS" style="width: 202px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
+                        <input type="text" id="waixingguimodengji" class="textCommonS" style="height: 27px; width: 98%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 71px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixingpodu" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixingpodu" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 72px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="waixingpoxiang" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="waixingpoxiang" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 301px; height: 30px; border-bottom: 1px solid #cecece;">平面形态</div>
                     <div class="chart1CommonS" style="width: 347px; height: 30px; border: none; border-bottom: 1px solid #cecece;">剖面形态</div>
@@ -544,7 +538,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 186px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 186px;">
                     <div style="position: relative; top: -30px;">
@@ -573,7 +566,7 @@
                     <div class="chart1CommonS" style="width: 40px; height: 30px; border-bottom: 1px solid #cecece;">时代</div>
                     <div class="chart1CommonS" style="width: 134px; height: 30px; border: none; border-bottom: 1px solid #cecece;">产状</div>
                     <div class="chart1CommonS" style="width: 40px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
-                        <input type="text" id="jiegoutezhengyanxing1" class="textCommonS" style="height: 27px;width:96%;" />
+                        <input type="text" id="jiegoutezhengyanxing1" class="textCommonS" style="height: 27px; width: 96%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 130px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                         <div style="position: relative; top: 2px; left: -2px;">
@@ -584,7 +577,7 @@
                         </div>
                     </div>
                     <div class="chart1CommonS" style="width: 70px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
-                        <input type="text" id="jiegoutezhengsuishihanliang" class="textCommonS" style="height: 27px;width:97%;" />
+                        <input type="text" id="jiegoutezhengsuishihanliang" class="textCommonS" style="height: 27px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 189px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                         <div style="position: relative; top: 2px; left: -2px;">
@@ -599,10 +592,10 @@
                         </div>
                     </div>
                     <div class="chart1CommonS" style="width: 40px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
-                        <input type="text" id="jiegoutezhengyanxing2" class="textCommonS" style="height: 27px;width:96%;" />
+                        <input type="text" id="jiegoutezhengyanxing2" class="textCommonS" style="height: 27px; width: 96%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 40px; height: 30px; border-bottom: 1px solid #cecece; background-color: #ffffff;">
-                        <input type="text" id="jiegoutezhengshidai" class="textCommonS" style="height: 27px;width:96%;" />
+                        <input type="text" id="jiegoutezhengshidai" class="textCommonS" style="height: 27px; width: 96%;" />
                     </div>
                     <div class="chart1CommonS" style="line-height: 0px; width: 134px; height: 30px; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                         <div style="float: left; width: 50px; height: 100%; border: none;">
@@ -634,16 +627,16 @@
                         </div>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 45px; height: 31px;">
-                        <input type="text" id="huamianjihuadaimaishen" class="textCommonS" style="height: 29px;width:96%;" />
+                        <input type="text" id="huamianjihuadaimaishen" class="textCommonS" style="height: 29px; width: 96%;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 45px; height: 31px;">
-                        <input type="text" id="huamianjihuadaiqingxiang" class="textCommonS" style="height: 29px;width:96%;" />
+                        <input type="text" id="huamianjihuadaiqingxiang" class="textCommonS" style="height: 29px; width: 96%;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 45px; height: 31px;">
-                        <input type="text" id="huamianjihuadaiqingjiao" class="textCommonS" style="height: 29px;width:96%;" />
+                        <input type="text" id="huamianjihuadaiqingjiao" class="textCommonS" style="height: 29px; width: 96%;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 45px; height: 31px;">
-                        <input type="text" id="huamianjihuadaihoudu" class="textCommonS" style="height: 29px;width:96%;" />
+                        <input type="text" id="huamianjihuadaihoudu" class="textCommonS" style="height: 29px; width: 96%;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 180px; height: 31px;">
                         <div style="position: relative; top: 2px; height: 30px; left: -2px;">
@@ -656,11 +649,10 @@
                         </div>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 103px; height: 31px; border: none;">
-                        <input type="text" id="huamianjihuadaihuadaituxingzhuang" class="textCommonS" style="height: 29px;width:97%;" />
+                        <input type="text" id="huamianjihuadaihuadaituxingzhuang" class="textCommonS" style="height: 29px; width: 97%;" />
                     </div>
                 </div>
             </div>
-
             <div style="height: 62px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 62px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 62px; border-bottom: 1px solid #cecece; text-align: center; line-height: 20px;">
@@ -673,16 +665,16 @@
                     <div class="chart1CommonS" style="width: 289px; height: 30px; border-bottom: 1px solid #cecece;">露头</div>
                     <div class="chart1CommonS" style="width: 298px; height: 30px; border: none; border-bottom: 1px solid #cecece;">补给类型</div>
                     <div class="chart1CommonSnoHeight" style="width: 60px; height: 31px;">
-                        <input type="text" id="dixiashuimaishen" class="textCommonS" style="height: 28px; width:97%;" />
+                        <input type="text" id="dixiashuimaishen" class="textCommonS" style="height: 28px; width: 97%;" />
                     </div>
-                    <div class="chart1CommonSnoHeight" style="width: 289px; height: 31px; background-color:#ffffff;">
+                    <div class="chart1CommonSnoHeight" style="width: 289px; height: 31px; background-color: #ffffff;">
                         <div style="margin-top: 2px;">
                             <input type="checkbox" name="dixiashuiloutou" value="上升泉" title="上升泉" /><span>上升泉</span>
                             <input type="checkbox" name="dixiashuiloutou" value="下降泉" title="下降泉" /><span>下降泉</span>
                             <input type="checkbox" name="dixiashuiloutou" value="溢水点" title="溢水点" /><span>溢水点</span>
                         </div>
                     </div>
-                    <div class="chart1CommonSnoHeight" style="width: 298px; height: 31px; border: none;background-color:#ffffff;">
+                    <div class="chart1CommonSnoHeight" style="width: 298px; height: 31px; border: none; background-color: #ffffff;">
                         <div style="margin-top: 1px;">
                             <input type="checkbox" name="dixiashuibujileixing" value="降雨" title="降雨" /><span>降雨</span>
                             <input type="checkbox" name="dixiashuibujileixing" value="地表水" title="地表水" /><span>地表水</span>
@@ -692,7 +684,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 31px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 31px; border-bottom: 1px solid #cecece;"></div>
                 <div class="chart1CommonS" style="width: 101px; height: 31px; border-bottom: 1px solid #cecece; text-align: center; line-height: 30px;">
@@ -711,8 +702,7 @@
                 </div>
             </div>
         </div>
-        <div id="infoPageChart2" style="display: none;">
-
+        <div id="infoPageChart2" class="infoPageChart" style="display: none;">
             <div style="height: 278px; width: 100%;">
                 <div class="chart1CommonS" style="width: 29px; height: 278px;">
                     <div style="position: relative; top: 90px; line-height: 20px;">
@@ -749,10 +739,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei1" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei1" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng1" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng1" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian1" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -771,10 +761,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei2" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei2" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng2" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng2" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian2" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -793,10 +783,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei3" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei3" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng3" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng3" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian3" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -815,10 +805,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei4" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei4" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng4" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng4" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian4" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -837,10 +827,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei5" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei5" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng5" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng5" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian5" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -859,10 +849,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei6" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei6" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng6" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng6" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian6" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -881,10 +871,10 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei7" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei7" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px; border-bottom: 1px solid #cecece;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng7" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng7" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian7" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
@@ -903,21 +893,20 @@
                         </select>
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 97px; height: 30px;">
-                        <input type="text" id="xianjinbianxingjixiangbuwei8" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangbuwei8" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 280px; height: 30px;">
-                        <input type="text" id="xianjinbianxingjixiangtezheng8" class="textCommonS" style="line-height: 27px; height: 27px;" />
+                        <input type="text" id="xianjinbianxingjixiangtezheng8" class="textCommonS" style="line-height: 26px; height: 26px;" />
                     </div>
                     <div class="chart1CommonSnoHeight" style="width: 139px; height: 30px; border: none;">
                         <input type="text" id="xianjinbianxingjixiangchuxianshijian8" class="textCommonS timecell" style="line-height: 27px; height: 27px;" />
                     </div>
                 </div>
             </div>
-
             <div style="height: 32px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 29px; height: 30px;"></div>
                 <div class="chart1CommonS" style="width: 150px; height: 30px;">变形活动阶段</div>
-                <div class="chart1CommonS" style="width: 539px; height: 30px; border: none; background-color: #ffffff;line-height:none;">
+                <div class="chart1CommonS" style="width: 539px; height: 30px; border: none; background-color: #ffffff; line-height: none;">
                     <div style="position: relative; left: -2px;">
                         <input type="radio" style="height: 13px; width: 13px;" name="bianxinghuodongjieduan" value="初始蠕变阶段" title="初始蠕变阶段" />
                         <span class="fontCommonSpan" style="font-size: 12px;">初始蠕变阶段</span>
@@ -932,7 +921,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 300px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 29px; height: 300px;">
                     <div style="position: relative; top: 105px; line-height: 20px;">
@@ -1021,7 +1009,6 @@
                                     <input type="checkbox" name="wuliyinsu" value="累进性破坏造成的抗剪强度降低" title="累进性破坏造成的抗剪强度降低" /><span>累进性破坏造成的抗剪强度降低</span>
                                     <input type="checkbox" name="wuliyinsu" value="融冻" title="融冻" /><span>融冻</span>
                                     <input type="checkbox" name="wuliyinsu" value="洪水冲蚀" title="洪水冲蚀" /><span>洪水冲蚀</span>
-
                                 </div>
                                 <div style="width: 575px; height: 28px; margin-top: 0px;">
                                     <input type="checkbox" name="wuliyinsu" value="胀缩" title="胀缩" /><span>胀缩</span>
@@ -1051,7 +1038,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 120px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 29px; height: 120px;">
                     <div style="position: relative; top: 8px; line-height: 20px;">
@@ -1114,186 +1100,185 @@
                     </div>
                 </div>
             </div>
-        <div style="height: 372px; width: 100%; border-bottom: 1px solid #cecece;">
-            <div class="chart1CommonS" style="width: 29px; height: 372px;">
-                <div style="position: relative; top: 150px; line-height: 20px;">
-                    滑<br />
-                    坡<br />
-                    危<br />
-                    害
-                </div>
-            </div>
-            <div class="chart1CommonS" style="width: 690px; height: 372px; border: none;">
-                <div class="chart1CommonS" style="width: 690px; height: 185px; border: none; border-bottom: 1px solid #cecece;">
-                    <div class="chart1CommonS" style="width: 70px; height: 185px;">
-                        <div style="position: relative; top: 70px; line-height: 20px;">
-                            已造成<br />
-                            危害
-                        </div>
+            <div style="height: 372px; width: 100%; border-bottom: 1px solid #cecece;">
+                <div class="chart1CommonS" style="width: 29px; height: 372px;">
+                    <div style="position: relative; top: 150px; line-height: 20px;">
+                        滑<br />
+                        坡<br />
+                        危<br />
+                        害
                     </div>
-                    <div class="chart1CommonS" style="width: 619px; height: 185px; border: none;">
-                        <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">死亡人数(人)</div>
-                            <div class="chart1CommonS" style="width: 118px; height: 30px;">损坏房屋</div>
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">毁路(m)</div>
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">毁渠(m)</div>
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">其它危害(人)</div>
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">直接损失(万)</div>
-                            <div class="chart1CommonS" style="width: 100px; height: 30px; border: none;">间接损失(万)</div>
+                </div>
+                <div class="chart1CommonS" style="width: 690px; height: 372px; border: none;">
+                    <div class="chart1CommonS" style="width: 690px; height: 185px; border: none; border-bottom: 1px solid #cecece;">
+                        <div class="chart1CommonS" style="width: 70px; height: 185px;">
+                            <div style="position: relative; top: 70px; line-height: 20px;">
+                                已造成<br />
+                                危害
+                            </div>
+                        </div>
+                        <div class="chart1CommonS" style="width: 619px; height: 185px; border: none;">
+                            <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">死亡人数(人)</div>
+                                <div class="chart1CommonS" style="width: 118px; height: 30px;">损坏房屋</div>
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">毁路(m)</div>
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">毁渠(m)</div>
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">其它危害(人)</div>
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">直接损失(万)</div>
+                                <div class="chart1CommonS" style="width: 100px; height: 30px; border: none;">间接损失(万)</div>
 
-                        </div>
-                        <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                            <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
-                                <input type="text" id="siwangrenshu" class="textCommonS" style="height: 28px;" />
                             </div>
-                            <div class="chart1CommonSnoHeight" style="width: 118px; height: 30px;">
-                                <div class="chart1CommonSnoHeight" style="width: 40px; height: 30px; border: none;">
-                                    <input type="text" id="sunhuaifangwuhu" class="textCommonS" style="height: 28px;" />
+                            <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                                <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
+                                    <input type="text" id="siwangrenshu" class="textCommonS" style="height: 28px;" />
                                 </div>
-                                <div class="chart1CommonS" style="width: 19px; height: 30px; border: none;">户</div>
-                                <div class="chart1CommonSnoHeight" style="width: 40px; height: 30px; border: none;">
-                                    <input type="text" id="sunhuaifangwujian" class="textCommonS" style="height: 28px;" />
+                                <div class="chart1CommonSnoHeight" style="width: 118px; height: 30px;">
+                                    <div class="chart1CommonSnoHeight" style="width: 40px; height: 30px; border: none;">
+                                        <input type="text" id="sunhuaifangwuhu" class="textCommonS" style="height: 28px;" />
+                                    </div>
+                                    <div class="chart1CommonS" style="width: 19px; height: 30px; border: none;">户</div>
+                                    <div class="chart1CommonSnoHeight" style="width: 40px; height: 30px; border: none;">
+                                        <input type="text" id="sunhuaifangwujian" class="textCommonS" style="height: 28px;" />
+                                    </div>
+                                    <div class="chart1CommonS" style="width: 18px; height: 30px; border: none;">间</div>
                                 </div>
-                                <div class="chart1CommonS" style="width: 18px; height: 30px; border: none;">间</div>
-                            </div>
-                            <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
-                                <input type="text" id="huilu" class="textCommonS" style="height: 28px;" />
-                            </div>
-                            <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
-                                <input type="text" id="huiqu" class="textCommonS" style="height: 28px;" />
-                            </div>
-                            <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
-                                <input type="text" id="qitaweihai" class="textCommonS" style="height: 28px;" />
-                            </div>
-                            <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
-                                <input type="text" id="zhijiesunshi" class="textCommonS" style="height: 28px;" />
-                            </div>
-                            <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px; border: none;">
-                                <input type="text" id="jianjiesunshi" class="textCommonS" style="height: 28px;" />
-                            </div>
-                        </div>
-                        <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">灾情等级</div>
-                            <div class="chart1CommonSnoHeight" style="width: 539px; height: 30px; border: none;">
-                                <input type="text" id="zaiqingdengji" class="textCommonS" style="height: 28px;" />
-                            </div>
-                        </div>
-                        <div class="chart1CommonS" style="width: 619px; height: 93px; border: none;">
-                            <div class="chart1CommonS" style="width: 79px; height: 93px; line-height: 93px;">危害对象</div>
-                            <div class="chart1CommonS" style="width: 539px; height: 92px; border: none; background-color: #ffffff;">
-                                <div style="width: 550px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
-                                    <input type="checkbox" name="weihaiduixiang" value="县城" title="县城" /><span>县城</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="学校" title="学校" /><span>学校</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="水库" title="水库" /><span>水库</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="铁路" title="铁路" /><span>铁路</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="大江大河" title="大江大河" /><span>大江大河</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="通讯设施" title="通讯设施" /><span>通讯设施</span>
+                                <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
+                                    <input type="text" id="huilu" class="textCommonS" style="height: 28px;" />
                                 </div>
-                                <div style="width: 550px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
-                                    <input type="checkbox" name="weihaiduixiang" value="村镇" title="村镇" /><span>村镇</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="矿山" title="矿山" /><span>矿山</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="电站" title="电站" /><span>电站</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="森林" title="森林" /><span>森林</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="饮灌渠道" title="饮灌渠道" /><span>饮灌渠道</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="国防设施" title="国防设施" /><span>国防设施</span>
+                                <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
+                                    <input type="text" id="huiqu" class="textCommonS" style="height: 28px;" />
                                 </div>
-                                <div style="width: 550px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
-                                    <input type="checkbox" name="weihaiduixiang" value="工厂" title="工厂" /><span>工厂</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="农田" title="农田" /><span>农田</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="公路" title="公路" /><span>公路</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="居民点" title="居民点" /><span>居民点</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="输电线路" title="输电线路" /><span>输电线路</span>
-                                    <input type="checkbox" name="weihaiduixiang" value="其它" title="其它" /><span>其它：</span>
-                                    <input type="text" id="weihaiduixiangqita" style="height: 24px; width: 60px;" />
+                                <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
+                                    <input type="text" id="qitaweihai" class="textCommonS" style="height: 26px;" />
+                                </div>
+                                <div class="chart1CommonSnoHeight" style="width: 79px; height: 30px;">
+                                    <input type="text" id="zhijiesunshi" class="textCommonS" style="height: 28px;" />
+                                </div>
+                                <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px; border: none;">
+                                    <input type="text" id="jianjiesunshi" class="textCommonS" style="height: 28px;" />
+                                </div>
+                            </div>
+                            <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">灾情等级</div>
+                                <div class="chart1CommonSnoHeight" style="width: 539px; height: 30px; border: none;">
+                                    <input type="text" id="zaiqingdengji" class="textCommonS" style="height: 26px;" />
+                                </div>
+                            </div>
+                            <div class="chart1CommonS" style="width: 619px; height: 93px; border: none;">
+                                <div class="chart1CommonS" style="width: 79px; height: 93px; line-height: 93px;">危害对象</div>
+                                <div class="chart1CommonS" style="width: 539px; height: 92px; border: none; background-color: #ffffff;">
+                                    <div style="width: 550px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
+                                        <input type="checkbox" name="weihaiduixiang" value="县城" title="县城" /><span>县城</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="学校" title="学校" /><span>学校</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="水库" title="水库" /><span>水库</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="铁路" title="铁路" /><span>铁路</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="大江大河" title="大江大河" /><span>大江大河</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="通讯设施" title="通讯设施" /><span>通讯设施</span>
+                                    </div>
+                                    <div style="width: 550px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
+                                        <input type="checkbox" name="weihaiduixiang" value="村镇" title="村镇" /><span>村镇</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="矿山" title="矿山" /><span>矿山</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="电站" title="电站" /><span>电站</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="森林" title="森林" /><span>森林</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="饮灌渠道" title="饮灌渠道" /><span>饮灌渠道</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="国防设施" title="国防设施" /><span>国防设施</span>
+                                    </div>
+                                    <div style="width: 550px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
+                                        <input type="checkbox" name="weihaiduixiang" value="工厂" title="工厂" /><span>工厂</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="农田" title="农田" /><span>农田</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="公路" title="公路" /><span>公路</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="居民点" title="居民点" /><span>居民点</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="输电线路" title="输电线路" /><span>输电线路</span>
+                                        <input type="checkbox" name="weihaiduixiang" value="其它" title="其它" /><span>其它：</span>
+                                        <input type="text" id="weihaiduixiangqita" style="height: 24px; width: 60px;" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="chart1CommonS" style="width: 690px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                    <div class="chart1CommonS" style="width: 70px; height: 30px;">诱发灾害</div>
-                    <div class="chart1CommonS" style="width: 79px; height: 30px;">灾害类型</div>
-                    <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
-                        <input type="text" id="zaihaileixing" class="textCommonS" style="height: 28px;" />
-                    </div>
-                    <div class="chart1CommonS" style="width: 79px; height: 30px;">波及范围</div>
-                    <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
-                        <input type="text" id="bojifanwei" class="textCommonS" style="height: 28px;" />
-                    </div>
-                    <div class="chart1CommonS" style="width: 100px; height: 30px;">造成损失(万元)</div>
-                    <div class="chart1CommonSnoHeight" style="width: 156px; height: 30px; border: none;">
-                        <input type="text" id="zaochengsunshi" class="textCommonS" style="height: 28px;" />
-                    </div>
-                </div>
-                <div class="chart1CommonS" style="width: 690px; height: 156px; border: none;">
-                    <div class="chart1CommonS" style="width: 70px; height: 156px; line-height: 156px;">潜在危害</div>
-                    <div class="chart1CommonS" style="width: 619px; height: 156px; border: none;">
-                        <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">威胁房屋(户)</div>
-                            <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
-                                <input type="text" id="weixiefangwu" class="textCommonS" style="height: 28px;" />
-                            </div>
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">威胁人数(人)</div>
-                            <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
-                                <input type="text" id="weixierenshu" class="textCommonS" style="height: 28px;" />
-                            </div>
-                            <div class="chart1CommonS" style="width: 100px; height: 30px;">威胁财产(万元)</div>
-                            <div class="chart1CommonSnoHeight" style="width: 156px; height: 30px; border: none;">
-                                <input type="text" id="weixiecaichan" class="textCommonS" style="height: 28px;" />
-                            </div>
+                    <div class="chart1CommonS" style="width: 690px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                        <div class="chart1CommonS" style="width: 70px; height: 30px;">诱发灾害</div>
+                        <div class="chart1CommonS" style="width: 79px; height: 30px;">灾害类型</div>
+                        <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
+                            <input type="text" id="zaihaileixing" class="textCommonS" style="height: 26px;" />
                         </div>
-                        <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
-                            <div class="chart1CommonS" style="width: 79px; height: 30px;">险情等级</div>
-                            <div class="chart1CommonSnoHeight" style="width: 539px; height: 30px; border: none;">
-                                <input type="text" id="xianqingdengji" class="textCommonS" style="height: 28px;" />
-                            </div>
+                        <div class="chart1CommonS" style="width: 79px; height: 30px;">波及范围</div>
+                        <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
+                            <input type="text" id="bojifanwei" class="textCommonS" style="height: 26px;" />
                         </div>
-                        <div class="chart1CommonS" style="width: 619px; height: 94px; border: none;">
-                            <div class="chart1CommonS" style="width: 79px; height: 94px; line-height: 93px;">威胁对象</div>
-                            <div class="chart1CommonS" style="width: 539px; height: 93px; border: none; background-color: #ffffff;">
-                                <div style="width: 450px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
-                                    <input type="checkbox" name="weixieduixiang" value="县城" title="县城" /><span>县城</span>
-                                    <input type="checkbox" name="weixieduixiang" value="学校" title="学校" /><span>学校</span>
-                                    <input type="checkbox" name="weixieduixiang" value="水库" title="水库" /><span>水库</span>
-                                    <input type="checkbox" name="weixieduixiang" value="铁路" title="铁路" /><span>铁路</span>
-                                    <input type="checkbox" name="weixieduixiang" value="大江大河" title="大江大河" /><span>大江大河</span>
-                                    <input type="checkbox" name="weixieduixiang" value="通讯设施" title="通讯设施" /><span>通讯设施</span>
+                        <div class="chart1CommonS" style="width: 100px; height: 30px;">造成损失(万元)</div>
+                        <div class="chart1CommonSnoHeight" style="width: 156px; height: 30px; border: none;">
+                            <input type="text" id="zaochengsunshi" class="textCommonS" style="height: 28px;" />
+                        </div>
+                    </div>
+                    <div class="chart1CommonS" style="width: 690px; height: 156px; border: none;">
+                        <div class="chart1CommonS" style="width: 70px; height: 156px; line-height: 156px;">潜在危害</div>
+                        <div class="chart1CommonS" style="width: 619px; height: 156px; border: none;">
+                            <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">威胁房屋(户)</div>
+                                <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
+                                    <input type="text" id="weixiefangwu" class="textCommonS" style="height: 28px;" />
                                 </div>
-                                <div style="width: 450px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
-                                    <input type="checkbox" name="weixieduixiang" value="村镇" title="村镇" /><span>村镇</span>
-                                    <input type="checkbox" name="weixieduixiang" value="矿山" title="矿山" /><span>矿山</span>
-                                    <input type="checkbox" name="weixieduixiang" value="电站" title="电站" /><span>电站</span>
-                                    <input type="checkbox" name="weixieduixiang" value="森林" title="森林" /><span>森林</span>
-                                    <input type="checkbox" name="weixieduixiang" value="饮灌渠道" title="饮灌渠道" /><span>饮灌渠道</span>
-                                    <input type="checkbox" name="weixieduixiang" value="国防设施" title="国防设施" /><span>国防设施</span>
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">威胁人数(人)</div>
+                                <div class="chart1CommonSnoHeight" style="width: 100px; height: 30px;">
+                                    <input type="text" id="weixierenshu" class="textCommonS" style="height: 28px;" />
                                 </div>
-                                <div style="width: 450px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
-                                    <input type="checkbox" name="weixieduixiang" value="工厂" title="工厂" /><span>工厂</span>
-                                    <input type="checkbox" name="weixieduixiang" value="农田" title="农田" /><span>农田</span>
-                                    <input type="checkbox" name="weixieduixiang" value="公路" title="公路" /><span>公路</span>
-                                    <input type="checkbox" name="weixieduixiang" value="居民点" title="居民点" /><span>居民点</span>
-                                    <input type="checkbox" name="weixieduixiang" value="输电线路" title="输电线路" /><span>输电线路</span>
-                                    <input type="checkbox" name="weixieduixiang" value="其它" title="其它" /><span>其它：</span>
-                                    <input type="text" id="weixieduixiangqita" style="height: 24px; width: 60px;" />
+                                <div class="chart1CommonS" style="width: 100px; height: 30px;">威胁财产(万元)</div>
+                                <div class="chart1CommonSnoHeight" style="width: 156px; height: 30px; border: none;">
+                                    <input type="text" id="weixiecaichan" class="textCommonS" style="height: 28px;" />
+                                </div>
+                            </div>
+                            <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
+                                <div class="chart1CommonS" style="width: 79px; height: 30px;">险情等级</div>
+                                <div class="chart1CommonSnoHeight" style="width: 539px; height: 30px; border: none;">
+                                    <input type="text" id="xianqingdengji" class="textCommonS" style="height: 27px;" />
+                                </div>
+                            </div>
+                            <div class="chart1CommonS" style="width: 619px; height: 94px; border: none;">
+                                <div class="chart1CommonS" style="width: 79px; height: 94px; line-height: 93px;">威胁对象</div>
+                                <div class="chart1CommonS" style="width: 539px; height: 93px; border: none; background-color: #ffffff;">
+                                    <div style="width: 450px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
+                                        <input type="checkbox" name="weixieduixiang" value="县城" title="县城" /><span>县城</span>
+                                        <input type="checkbox" name="weixieduixiang" value="学校" title="学校" /><span>学校</span>
+                                        <input type="checkbox" name="weixieduixiang" value="水库" title="水库" /><span>水库</span>
+                                        <input type="checkbox" name="weixieduixiang" value="铁路" title="铁路" /><span>铁路</span>
+                                        <input type="checkbox" name="weixieduixiang" value="大江大河" title="大江大河" /><span>大江大河</span>
+                                        <input type="checkbox" name="weixieduixiang" value="通讯设施" title="通讯设施" /><span>通讯设施</span>
+                                    </div>
+                                    <div style="width: 450px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
+                                        <input type="checkbox" name="weixieduixiang" value="村镇" title="村镇" /><span>村镇</span>
+                                        <input type="checkbox" name="weixieduixiang" value="矿山" title="矿山" /><span>矿山</span>
+                                        <input type="checkbox" name="weixieduixiang" value="电站" title="电站" /><span>电站</span>
+                                        <input type="checkbox" name="weixieduixiang" value="森林" title="森林" /><span>森林</span>
+                                        <input type="checkbox" name="weixieduixiang" value="饮灌渠道" title="饮灌渠道" /><span>饮灌渠道</span>
+                                        <input type="checkbox" name="weixieduixiang" value="国防设施" title="国防设施" /><span>国防设施</span>
+                                    </div>
+                                    <div style="width: 450px; height: 24px; margin-top: 3px; margin-left: 35px; text-align: left;">
+                                        <input type="checkbox" name="weixieduixiang" value="工厂" title="工厂" /><span>工厂</span>
+                                        <input type="checkbox" name="weixieduixiang" value="农田" title="农田" /><span>农田</span>
+                                        <input type="checkbox" name="weixieduixiang" value="公路" title="公路" /><span>公路</span>
+                                        <input type="checkbox" name="weixieduixiang" value="居民点" title="居民点" /><span>居民点</span>
+                                        <input type="checkbox" name="weixieduixiang" value="输电线路" title="输电线路" /><span>输电线路</span>
+                                        <input type="checkbox" name="weixieduixiang" value="其它" title="其它" /><span>其它：</span>
+                                        <input type="text" id="weixieduixiangqita" style="height: 24px; width: 60px;" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div style="height: 30px; width: 100%; border-bottom: 1px solid #cecece;">
-            <div class="chart1CommonS" style="width: 100px; height: 30px;">监测建议</div>
-            <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; background-color: #ffffff;">
-                <div style="width: 550px; height: 24px; margin-top: 2px; margin-left: 30px; text-align: left;">
-                    <input type="checkbox" name="jiancejianyi" value="定期目视检查" title="定期目视检查" /><span>定期目视检查</span>
-                    <input type="checkbox" name="jiancejianyi" value="安装简易监测设施" title="安装简易监测设施" /><span>安装简易监测设施</span>
-                    <input type="checkbox" name="jiancejianyi" value="地面位移监测" title="地面位移监测" /><span>地面位移监测</span>
-                    <input type="checkbox" name="jiancejianyi" value="深部位移监测" title="深部位移监测" /><span>深部位移监测</span>
+            <div style="height: 30px; width: 100%; border-bottom: 1px solid #cecece;">
+                <div class="chart1CommonS" style="width: 100px; height: 30px;">监测建议</div>
+                <div class="chart1CommonS" style="width: 619px; height: 30px; border: none; background-color: #ffffff;">
+                    <div style="width: 550px; height: 24px; margin-top: 2px; margin-left: 30px; text-align: left;">
+                        <input type="checkbox" name="jiancejianyi" value="定期目视检查" title="定期目视检查" /><span>定期目视检查</span>
+                        <input type="checkbox" name="jiancejianyi" value="安装简易监测设施" title="安装简易监测设施" /><span>安装简易监测设施</span>
+                        <input type="checkbox" name="jiancejianyi" value="地面位移监测" title="地面位移监测" /><span>地面位移监测</span>
+                        <input type="checkbox" name="jiancejianyi" value="深部位移监测" title="深部位移监测" /><span>深部位移监测</span>
+                    </div>
                 </div>
             </div>
-        </div>
-
             <div style="height: 279px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 100px; height: 279px; line-height: 279px;">防治建议</div>
                 <div class="chart1CommonS" style="width: 619px; height: 279px; border: none; background-color: #ffffff;">
@@ -1367,7 +1352,7 @@
                         </div>
                     </div>
                     <div class="chart1CommonS" style="width: 109px; height: 33px; border-bottom: 1px solid #cecece;">
-                        <div style="width: 100px; height: 30px; margin-top: 0px; margin-left: 0px; text-align: left;">
+                        <div style="width: 100px; height: 30px; margin-top: 0px; margin-left: 10px; text-align: left;">
                             <input type="checkbox" name="yingjipaiweichuxian" value="应急排危除险" title="应急排危除险" style="margin-top: 3px;" /><span>应急排危除险</span>
                         </div>
                     </div>
@@ -1380,7 +1365,6 @@
                     <div class="chart1CommonS" style="width: 509px; height: 33px; border: none;"></div>
                 </div>
             </div>
-
             <div style="height: 30px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 100px; height: 30px;">遥感解译点</div>
                 <div class="chart1CommonS" style="width: 50px; height: 30px; background-color: #ffffff;">
@@ -1419,21 +1403,19 @@
                 </div>
             </div>
         </div>
-        <div id="infoPageChart3"  style="display: none;">
-
+        <div id="infoPageChart3" class="infoPageChart" style="display: none;">
             <div style="height: 201px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 122px; height: 201px; line-height: 200px;">野外记录信息</div>
                 <div class="chart1CommonS" style="width: 258px; height: 200px; line-height: none; background-color: #ffffff;">
                     <textarea id="yewaijiluxinxi" style="width: 96%; height: 96%;"></textarea>
                 </div>
                 <div class="chart1CommonS" style="width: 274px; height: 200px; line-height: none; background-color: #ffffff; color: #cecece;">预留，请替换控件</div>
-                <div class="chart1CommonS" style="width: 61px; height: 200px; line-height: none; border: none; background-color: #ffffff; margin-left:2px;">
+                <div class="chart1CommonS" style="width: 61px; height: 200px; line-height: none; border: none; background-color: #ffffff; margin-left: 2px;">
                     <div class="buttonCommon" id="yewaijiluxinxiin" style="width: 58px; height: 66px; line-height: 66px;">导入</div>
                     <div class="buttonCommon" id="yewaijiluxinxiout" style="width: 58px; height: 66px; line-height: 66px;">导出</div>
                     <div class="buttonCommon" id="yewaijiluxinxidel" style="width: 58px; height: 65px; line-height: 66px; border: none;">删除</div>
                 </div>
             </div>
-
             <div style="height: 250px; width: 100%;">
                 <div class="chart1CommonS" style="width: 40px; height: 250px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 250px;"></div>
@@ -1447,7 +1429,7 @@
                 <div class="chart1CommonS" style="width: 597px; height: 250px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 597px; height: 200px; border: none; line-height: none;">
                         <!--平面图 上传区域 预留-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 597px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="shangepingmiantuDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1456,7 +1438,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 250px; width: 100%;">
                 <div class="chart1CommonS" style="width: 40px; height: 250px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 250px;">
@@ -1476,7 +1457,7 @@
                 <div class="chart1CommonS" style="width: 597px; height: 250px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 597px; height: 200px; border: none; line-height: none;">
                         <!--@* 剖 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 597px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="shangepoumiantuDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1485,7 +1466,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 250px; width: 100%;">
                 <div class="chart1CommonS" style="width: 40px; height: 250px;">
                     <div style="position: relative; top: 200px; line-height: 20px;">
@@ -1507,7 +1487,7 @@
                 <div class="chart1CommonS" style="width: 597px; height: 250px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 597px; height: 200px; border: none; line-height: none;">
                         <!--@* 剖 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 597px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="shangesumiaotuDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1516,7 +1496,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 150px; width: 100%;">
                 <div class="chart1CommonS" style="width: 40px; height: 150px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 150px;">
@@ -1538,7 +1517,7 @@
                 <div class="chart1CommonS" style="width: 597px; height: 150px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 597px; height: 100px; border: none; line-height: none;">
                         <!--@* 剖 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 597px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="shiliangpingmiantuDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1547,7 +1526,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 150px; width: 100%;">
                 <div class="chart1CommonS" style="width: 40px; height: 150px;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 150px;">
@@ -1569,7 +1547,7 @@
                 <div class="chart1CommonS" style="width: 597px; height: 150px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 597px; height: 100px; border: none; line-height: none;">
                         <!--@* 剖 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 597px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="shiliangpoumiantuDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1578,7 +1556,6 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 150px; width: 100%;">
                 <div class="chart1CommonS" style="width: 40px; height: 150px; border-bottom: 1px solid #cecece;"></div>
                 <div class="chart1CommonS" style="width: 40px; height: 150px; border-bottom: 1px solid #cecece;">
@@ -1601,7 +1578,7 @@
                 <div class="chart1CommonS" style="width: 597px; height: 150px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 597px; height: 100px; border: none; line-height: none;">
                         <!--@* 剖 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 597px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="shiliangsumiaotuDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1611,14 +1588,13 @@
                 </div>
             </div>
         </div>
-        <div id="infoPageChart4" style="display: none;">
-
+        <div id="infoPageChart4" class="infoPageChart" style="display: none;">
             <div style="height: 250px; width: 100%;">
                 <div class="chart1CommonS" style="width: 60px; height: 249px; line-height: 249px; border-bottom: 1px solid #cecece;">照片</div>
                 <div class="chart1CommonS" style="width: 659px; height: 249px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 659px; height: 200px; border: none; line-height: none;">
                         <!--@* 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 659px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="zhaopianDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1627,13 +1603,12 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 250px; width: 100%;">
                 <div class="chart1CommonS" style="width: 60px; height: 249px; line-height: 249px; border-bottom: 1px solid #cecece;">录像</div>
                 <div class="chart1CommonS" style="width: 659px; height: 249px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 659px; height: 200px; border: none; line-height: none;">
                         <!--@* 上传区域 预留 *@-->
-                    <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left:10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
                     </div>
                     <div class="chart1CommonS" style="width: 638px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="luxiangDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
@@ -1642,21 +1617,20 @@
                     </div>
                 </div>
             </div>
-
             <div style="height: 61px; width: 100%; border-bottom: 1px solid #cecece;">
                 <div class="chart1CommonS" style="width: 60px; height: 61px; line-height: 61px;">调查信息</div>
                 <div class="chart1CommonS" style="width: 659px; height: 30px; border: none; border-bottom: 1px solid #cecece;">
                     <div class="chart1CommonS" style="width: 100px; height: 30px;">调查负责人：</div>
                     <div class="chart1CommonSnoHeight" style="width: 99px; height: 30px;">
-                        <input type="text" id="diaochafuzeren" class="textCommonS" style="height: 28px;" />
+                        <input type="text" id="diaochafuzeren" class="textCommonS" style="height: 26px;" />
                     </div>
                     <div class="chart1CommonS" style="width: 60px; height: 30px;">填表人：</div>
                     <div class="chart1CommonSnoHeight" style="width: 69px; height: 30px;">
-                        <input type="text" id="tianbiaoren" class="textCommonS" style="height: 28px; width:97%;" />
+                        <input type="text" id="tianbiaoren" class="textCommonS" style="height: 26px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 60px; height: 30px;">审核人：</div>
                     <div class="chart1CommonSnoHeight" style="width: 69px; height: 30px;">
-                        <input type="text" id="shenheren" class="textCommonS" style="height: 28px;width:97%;" />
+                        <input type="text" id="shenheren" class="textCommonS" style="height: 26px; width: 97%;" />
                     </div>
                     <div class="chart1CommonS" style="width: 75px; height: 30px;">填表日期：</div>
                     <div class="chart1CommonSnoHeight" style="width: 120px; height: 30px; border: none;">
@@ -1666,7 +1640,7 @@
                 <div class="chart1CommonS" style="width: 659px; height: 30px; border: none;">
                     <div class="chart1CommonS" style="width: 100px; height: 30px;">调查单位：</div>
                     <div class="chart1CommonSnoHeight" style="width: 558px; height: 29px; border: none;">
-                        <input type="text" id="diaochadanwei" class="textCommonS" style="height: 26px; line-height:26px;" />
+                        <input type="text" id="diaochadanwei" class="textCommonS" style="height: 25px; line-height: 26px;" />
                     </div>
                 </div>
             </div>

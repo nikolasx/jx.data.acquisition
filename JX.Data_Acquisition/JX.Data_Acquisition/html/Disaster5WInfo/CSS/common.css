@@ -3,22 +3,20 @@
     margin: 0px 0px;
     font-family: 'Microsoft YaHei';
     border: none;
-    background-color: #ECF2EE;
 }
 
 .mainWindow {
-    position: relative;
-    width: 800px;
+    position: absolute;
+    width: 100%;
     height: 1100px;
-    margin: 30px auto 0;
+    background-color: #ECF2EE;
 }
 
 /*导航区开始*/
 #navigatorMenu {
     width: 722px;
     height: 30px;
-    margin-left: 50px;
-    margin-top: 12px;
+    margin: 12px auto 0;
 }
 
 .naviChlid {
@@ -69,8 +67,7 @@
     width: 720px;
     height: 937px;
     border: 1px solid #cecece;
-    margin-left: 50px;
-    margin-top: 0px;
+    margin: 0 auto 0;
     background-color: #DDEAFF;
 }
 
@@ -106,6 +103,7 @@
     border: none;
     text-align: center;
     line-height: 28px;
+    color: #4476d1;
 }
 
 .fontCommonS {
@@ -120,9 +118,19 @@
     color: #373434;
 }
 
+.spanPosition {
+    position: relative;
+    top: -2px;
+}
+
 .radioCommonS {
     width: 10px;
     height: 10px;
+}
+
+.radioCommonSBig {
+    width: 15px;
+    height: 15px;
 }
 
 .chart1CommonS2 {
@@ -141,8 +149,8 @@
 #infoPageChart2 {
     width: 720px;
     height: 1447px;
-    margin-left: 50px;
-    margin-top: -1px;
+    /*margin-left: 25%;*/
+    margin: -1px auto 0;
     border: 1px solid #cecece;
     background-color: #DDEAFF;
 }
@@ -151,8 +159,8 @@
 #infoPageChart3 {
     width: 720px;
     height: 1408px;
-    margin-left: 50px;
-    margin-top: -1px;
+    /*margin-left: 25%;*/
+    margin: -1px auto 0;
     border: 1px solid #cecece;
     background-color: #DDEAFF;
 }
@@ -160,8 +168,8 @@
 #infoPageChart4 {
     width: 720px;
     height: 563px;
-    margin-left: 50px;
-    margin-top: -1px;
+    /*margin-left: 25%;*/
+    margin: -1px auto 0;
     border: 1px solid #cecece;
     background-color: #DDEAFF;
 }

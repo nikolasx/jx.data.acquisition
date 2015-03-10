@@ -1,0 +1,82 @@
+﻿
+#statisticWrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.statisticHeader {
+    width: 100%;
+    height: 100px;
+}
+
+.statisticReturnIcon {
+    width: 11px;
+    height: 17px;
+    background-image: url("/images/pageReturn.png");
+    float: left;
+    margin-top: 41px;
+    margin-left: 22px;
+}
+
+.statisticTitle {
+    width: 150px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 17px;
+}
+
+.statis_head_title {
+    height: 50px;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.statisheadtitle {
+    float: left;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    color: #8F9090;
+}
+
+.statisheadtitleSelected {
+    color: #f28f02;
+}
+
+.statisticContainer {
+    position: absolute;
+    top: 180px;
+    left: 0;
+    width: 100%;
+    bottom: 40px;
+    overflow: hidden;
+}
+
+.statisticContent {
+    position: relative;
+    height: 100%;
+    width: 300%;
+}
+
+.statisticColumn,
+.statisticMoon,
+.statisticBar {
+    position: relative;
+    width: 33.333%;
+    height: 100%;
+    float: left;
+}
+
+#statisticColumnContent,
+#statisticMoonContent,
+#statisticBarContent {
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}

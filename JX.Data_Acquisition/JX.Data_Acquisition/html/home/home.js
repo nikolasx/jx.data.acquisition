@@ -7,10 +7,13 @@
         ready: function (element, options) {
 
             homePage.initialize();
+
         },
 
         unload: function () {
+
         }
+
     });
 
 
@@ -25,13 +28,13 @@
 
         //加载地图
         addMap: function () {
-            var mouse = new OpenLayers.Control.MousePosition();
-            var nav = new OpenLayers.Control.TouchNavigation({
-                id: "myTouchNavigation"
-            });
+            //var mouse = new OpenLayers.Control.MousePosition();
+            //var nav = new OpenLayers.Control.TouchNavigation({
+            //    id: "myTouchNavigation"
+            //});
             this.map = new OpenLayers.Map("mainMap", {
                 maxExtent: new OpenLayers.Bounds(12523442.7142433, 2504688.54284865, 13775786.9856676, 3757032.81427298),
-                controls:[nav],
+                //controls:[nav],
                 numZoomLevels: 6,
                 maxResolution: (13775786.9856676 - 12523442.7142433) / 256,
                 theme: null

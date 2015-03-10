@@ -1,0 +1,73 @@
+﻿
+
+#qcqfWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#qcqfLeft {
+    width: 350px;
+    height: 100%;
+    background-color: #313C47;
+}
+
+#qcqfHeader {
+    width: 100%;
+    height: 90px;
+}
+
+#qcqfTitleIcon {
+    width:11px;
+    height:17px;
+    background-image:url("/images/pageReturn.png");
+    margin-top:43px;
+    margin-left:22px;
+    float:left;
+}
+
+#qcqfTitle {
+    height:36px;
+    width:260px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float: left;
+}
+
+.qcqfList {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.qcqfList>li {
+    width: 100%;
+    height: 45px;
+    font-size: 24px;
+    color: #ffffff;
+    display: block;
+    list-style: none;
+    text-indent: 50px;
+    line-height: 45px;
+}
+
+.qcqfSelected {
+    background-color: #4A4FA5;
+}
+
+#qcqfRight {
+    position: absolute;
+    height: 100%;
+    background-color: #fff;
+    left: 350px;
+    right: 0;
+    top: 0;
+}
+
+#qcqfContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

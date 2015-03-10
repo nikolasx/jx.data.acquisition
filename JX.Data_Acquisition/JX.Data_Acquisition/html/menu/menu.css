@@ -63,9 +63,14 @@
     background-image: url("/images/menuIcon/paint.png");
 }
 
+.menu_remoteSense {
+    width: 268px;
+    height: 118px;
+    background-image: url("/images/menuIcon/sjbb.png");
+}
+
 .menu_disasterQuery{
     width: 268px;
     height: 118px;
     background-image: url("/images/menuIcon/disasterQuery.png");
-    clear:left;
 }

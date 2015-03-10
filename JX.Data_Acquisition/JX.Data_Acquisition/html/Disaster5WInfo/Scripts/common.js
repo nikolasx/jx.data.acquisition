@@ -5,10 +5,43 @@
 *页面初始化函数
 */
 function eventInitialize() {
+    //样式控制
+    //window.open形式 调用HTML展示数据时该函数起作用
+    initEvents4WindowOpenStyle();
     //初始化控件
     initialisePlug();
     //注册页面切换事件
     registerNavigator();
+}
+
+function initChartStyle(isUrl) {
+    var marginLeftPx = 50;
+    if (isUrl) {
+        var mainWindowWidth = $(".mainWindow").width();
+        marginLeftPx = mainWindowWidth * 0.25;
+    }
+    $("#navigatorMenu").css("margin-left", marginLeftPx + "px");
+    $(".infoPageChart").css("margin-left", marginLeftPx + "px");
+}
+
+function initEvents4WindowOpenStyle() {
+    var url = location.search;
+    if (url == "") { initChartStyle(false); return; }
+    initChartStyle(true);
+    var requestConditions = utilGetRequest();
+    var _getDisasterDataUrl = requestConditions["controllerUrl"];
+    var getDisasterDataUrl = unescape(_getDisasterDataUrl);
+    $.post(getDisasterDataUrl, { disasterInfoTybh: requestConditions["tybh"] }, function (data) {
+        switch (requestConditions["type"]) {
+            case "huapo":
+                showLandslideInfos(data);
+                break;
+            case "xiepo":
+                showSlopeInfos(data);
+                break;
+        }
+        controlElementsOfPages(true);
+    })
 }
 
 /*
@@ -26,6 +59,11 @@ function initialisePlug() {
 *页面内导航条切换方法
 */
 function registerNavigator() {
+    //样式控制
+    var childHeightInit = $("#infoPageChart1").height();
+    $(".mainWindow").height(childHeightInit + 150);
+
+    //导航菜单切换事件注册
     $(".naviChlid").click(function () {
         var clickObj = $(this);
         var index = $(".naviChlid").index(clickObj);
@@ -33,10 +71,10 @@ function registerNavigator() {
         var selectedIndex = $(".naviChlid").index($(".naviChildSelected"));
         $(".naviChlid").removeClass("naviChildSelected");
         clickObj.addClass("naviChildSelected");
-        var backPixControlArr=[1100,1550,1500,700]
         $("#infoPageChart" + (selectedIndex + 1)).fadeOut("fast", function () {
-            $(".mainWindow").height(backPixControlArr[index]);
-            //alert(backPixControlArr[index]);
+            //获取当前子窗口高度
+            var childHeight = $("#infoPageChart" + (index + 1)).height();
+            $(".mainWindow").height(childHeight + 150);
             $("#infoPageChart" + (index + 1)).show();
         })
     });
@@ -111,13 +149,11 @@ function activeTybhPage(cityArray, postUrl) {
     $("#calulateTybhOK").click(function () {
         var _pOSTurl = postUrl;
         var conditionObj = {
-            code: $("#tybhcounty").val(),
-            name: $("#disasterType").html()
+            regioncode: $("#tybhcounty").val(),
+            disatype: $("#disasterType").html()
         };
 
         $.post(_pOSTurl, conditionObj, function (cbData) {
-            //alert(cbData);
-            $("#tybhresult").val(cbData);
             $("#tongyibianhao").val(cbData);
         })
     });
@@ -160,6 +196,9 @@ function utilGetCheckboxVal(chkName) {
 function utilWriteInputTypeOfTEXT(res) {
     //[[textid,textvalue],[],[]...]
     for (var i = 0; i < res.length; i++) {
+        if ($("#" + res[i][0]).length == 0) {
+            alert(res[i][0]);
+        }
         $("#" + res[i][0]).val(res[i][1]);
     }
 }
@@ -182,9 +221,11 @@ function utilSelectRADIOorCHECKBOX(res, type) {
 *内部工具函数，处理checkbox组值为特定格式
 */
 function utilHandleCheckboxData(chkName, values, resultArr) {
-    var tempArr = values.split(',');
-    for (var i = 0; i < tempArr.length; i++) {
-        resultArr.push([chkName, tempArr[i]]);
+    if (values != undefined && values != null) {
+        var tempArr = values.split(',');
+        for (var i = 0; i < tempArr.length; i++) {
+            resultArr.push([chkName, tempArr[i]]);
+        }
     }
     return resultArr;
 }
@@ -221,3 +262,131 @@ function utilAnalyseCityArray(data) {
     return returnRes;
 }
 
+/*
+*Title:
+*     处理危害对象、威胁对象内容回收
+*Description:
+*     因危害对象和威胁对象checkbox涉及其它自定义内容的填写，故添加特定函数处理
+*Domain:
+*     Private
+*/
+function handleWeiHaiDuiXiangQiTa(chkname, textname) {
+    var resultStr = "";
+    $('input[name="' + chkname + '"]:checked').each(function () {
+        if ($(this).val() == "其它") {
+            resultStr = resultStr + "：," + $('#' + textname + '').val();
+        }
+    });
+    return resultStr;
+}
+
+/*
+*Title:
+*     处理防治建议对象内容回收
+*Description:
+*     防治建议不是特定字段，分化到了多个区域，使用此函数处理
+*Domain:
+*     Private
+*/
+function handleFangZhiJianYi() {
+    var nameArr = ["quncequnfang", "zhuanyejiance", "banqianbirang", "gongchengzhili", "yingjipaiweichuxian", "lijingshipai"];
+    var resultStr = "";
+    for (var i = 0; i < nameArr.length; i++) {
+        $('input[name="' + nameArr[i] + '"]:checked').each(function () {
+            resultStr = resultStr + $(this).val() + ",";
+        });
+    }
+    resultStr = resultStr.substring(0, resultStr.length - 1);
+    return resultStr;
+}
+
+/*
+*Title:
+*     根据防治建议勾选值选中对应checkbox
+*Description:
+*     防治建议不是特定字段，分化到了多个区域，使用此函数处理
+*Domain:
+*     Private
+*/
+function selectFangZhiJianYi(values) {
+    var valueArr = values.split(',');
+    var nameArr = ["quncequnfang", "zhuanyejiance", "banqianbirang", "gongchengzhili", "yingjipaiweichuxian", "lijingshipai"];
+    for (var i = 0; i < valueArr.length; i++) {
+        for (var j = 0; j < nameArr.length; j++) {
+            $('[name=' + nameArr[j] + ']:checkbox').each(function () {
+                if ($(this).val() == valueArr[i]) {
+                    this.checked = true;
+                }
+            });
+        }
+    }
+}
+
+/*
+*Title:
+*     危害对象和威胁对象涉及checkbox和其它text框的填写，此函数处理
+*Description:
+*     null
+*Domain:
+*     Private
+*/
+function selectWeiHaiOrWeiXieDuiXiang(values) {
+    for (var i = 0; i < values.length; i++) {
+        //checkbox组name，其它内容文本框id，数据库传回来的串值
+        var tempObj = values[i];
+        var valueArr = (tempObj[2] != undefined && tempObj[2] != null ? tempObj[2].split('：') : ['', '']);
+
+        var chkResTemp = [];
+        var childValueArr = valueArr[0].split(',');
+        for (var j = 0; j < childValueArr.length; j++) {
+            chkResTemp.push([tempObj[0], childValueArr[j]]);
+        }
+        utilSelectRADIOorCHECKBOX(chkResTemp, 'checkbox');
+
+        //其它勾选时，文本框内容填充
+        if (valueArr.length > 1) {
+            $("#" + tempObj[1]).val(valueArr[1].substring(1, valueArr[1].length));
+        }
+
+    }
+}
+
+function utilGetRequest() {
+    var url = location.search;
+    var theRequest = new Object();
+    if (url.indexOf("?") != -1) {
+        var strTemp = url.substr(1);
+        strs = strTemp.split("&");
+        for (var i = 0; i < strs.length; i++) {
+            theRequest[strs[i].split("=")[0]] = unescape(strs[i].split("=")[1]);
+        }
+    }
+    return theRequest;
+}
+
+
+function utilGetDateElement(date, index) {
+    if (date == "") return "";
+    var tempRes = [];
+    var _1r = date.split(" ");
+    //截取年月日标志参数
+    var splitMark = "-";
+    var splitNum = 0;
+    //截取时分秒标志参数
+    if (index >= 3) { splitMark = ":"; splitNum = 1; index = index - 3; }
+    if (_1r.length >= 1) {
+        var _2r = _1r[splitNum].split(splitMark);
+        for (var i = 0; i < _2r.length; i++) {
+            tempRes.push(_2r[i]);
+        }
+    }
+    return tempRes[index];
+}
+
+//处理岩体块度，私用
+var privateUtilHandleYTKD = function (val, index) {
+    if (val == "") return "";
+    var _1r = val.split("×");
+    if (_1r.length < index + 1) return "";
+    return _1r[index];
+}

@@ -31,6 +31,9 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.css">
       <PackagePath>html\disasterquery\query.css</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterStatistic\statistic.css">
+      <PackagePath>html\disasterStatistic\statistic.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.css">
       <PackagePath>html\disaster\disaster.css</PackagePath>
     </AppxPackagedFile>
@@ -42,6 +45,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.css">
       <PackagePath>html\paint\paint.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\avoidriskcard\avoidriskcard.css">
+      <PackagePath>html\QCQF\avoidriskcard\avoidriskcard.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\preplan\preplan.css">
+      <PackagePath>html\QCQF\preplan\preplan.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\qcqf\qcqf.css">
+      <PackagePath>html\QCQF\qcqf\qcqf.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\remoteSensePoint\remotesensepoint.css">
+      <PackagePath>html\remoteSensePoint\remotesensepoint.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\remoteSensePoint\table\point.css">
+      <PackagePath>html\remoteSensePoint\table\point.css</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\css\default.css">
       <PackagePath>css\default.css</PackagePath>
@@ -61,11 +79,20 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.html">
       <PackagePath>html\container\container.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Bengta.html">
+      <PackagePath>html\Disaster5WInfo\Bengta.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Huapo.html">
       <PackagePath>html\Disaster5WInfo\Huapo.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Xiepo.html">
+      <PackagePath>html\Disaster5WInfo\Xiepo.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.html">
       <PackagePath>html\disasterquery\query.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterStatistic\statistic.html">
+      <PackagePath>html\disasterStatistic\statistic.html</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.html">
       <PackagePath>html\disaster\disaster.html</PackagePath>
@@ -82,6 +109,24 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.html">
       <PackagePath>html\paint\paint.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\avoidriskcard\avoidriskcard.html">
+      <PackagePath>html\QCQF\avoidriskcard\avoidriskcard.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\preplan\preplan.html">
+      <PackagePath>html\QCQF\preplan\preplan.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\qcqf\qcqf.html">
+      <PackagePath>html\QCQF\qcqf\qcqf.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\workingguidecard\workingguidecard.html">
+      <PackagePath>html\QCQF\workingguidecard\workingguidecard.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\remoteSensePoint\remotesensepoint.html">
+      <PackagePath>html\remoteSensePoint\remotesensepoint.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\remoteSensePoint\table\point.html">
+      <PackagePath>html\remoteSensePoint\table\point.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\appSet\appset.js">
       <PackagePath>html\appSet\appset.js</PackagePath>
     </AppxPackagedFile>
@@ -90,6 +135,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\container\container.js">
       <PackagePath>html\container\container.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\bengta.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\bengta.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\common.js">
       <PackagePath>html\Disaster5WInfo\Scripts\common.js</PackagePath>
@@ -106,8 +154,14 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\temp.js">
       <PackagePath>html\Disaster5WInfo\Scripts\temp.js</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\xiepo.js">
+      <PackagePath>html\Disaster5WInfo\Scripts\xiepo.js</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.js">
       <PackagePath>html\disasterquery\query.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterStatistic\statistic.js">
+      <PackagePath>html\disasterStatistic\statistic.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.js">
       <PackagePath>html\disaster\disaster.js</PackagePath>
@@ -120,6 +174,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.js">
       <PackagePath>html\paint\paint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\qcqf\qcqf.js">
+      <PackagePath>html\QCQF\qcqf\qcqf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\remoteSensePoint\remotesensepoint.js">
+      <PackagePath>html\remoteSensePoint\remotesensepoint.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\remoteSensePoint\table\point.js">
+      <PackagePath>html\remoteSensePoint\table\point.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\default.js">
       <PackagePath>js\default.js</PackagePath>
@@ -135,6 +198,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\customeDragPan.js">
       <PackagePath>js\lib\customeDragPan.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\highcharts.js">
+      <PackagePath>js\lib\highcharts.js</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\jquery-1.11.1.min.js">
       <PackagePath>js\lib\jquery-1.11.1.min.js</PackagePath>
@@ -162,6 +228,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\appBarIcon\lock.png">
       <PackagePath>images\appBarIcon\lock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\img\marker-green.png">
+      <PackagePath>images\img\marker-green.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\06.png">
       <PackagePath>images\menuIcon\06.png</PackagePath>
