@@ -558,28 +558,55 @@ function attachEvents() {
     $("#zhaopianIn").click(function () {
         top.AppUtil.capturePhoto($.noop);
     });
-
     //选择文件
     $("#zhaopianOut").click(function () {
         top.AppUtil.pickSinglePhoto(function (url) {
             url && $("#zhaopianshow").attr("src", url);
         });
     });
-
     //删除图片
     $("#zhaopianDel").click(function () {
         $("#zhaopianshow").removeAttr("src");
     });
-
     //栅格平面图
     $("#shangepingmiantuIn").click(function () {
+        top.disasterPage.btnId = "shangepingmiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //栅格剖面图
+    $("#shangepoumiantuIn").click(function () {
+        top.disasterPage.btnId = "shangepoumiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //矢量平面图
+    $("#shiliangpingmiantuIn").click(function () {
+        top.disasterPage.btnId = "shiliangpingmiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //矢量剖面图
+    $("#shiliangpoumiantuIn").click(function () {
+        top.disasterPage.btnId = "shiliangpoumiantuIn";
         top.disasterPage.showRightPanel("/html/paint/paint.html");
     });
 
 
 }
 
-function showShanGeTuPingmian(img) {
+function showPaintImage(id, img) {
+    switch (id) {
+        case "shangepingmiantuIn":
+            $("#shangepingmiantushow").attr("src", img);
+            break;
+        case "shangepoumiantuIn":
+            $("#shangepoumiantushow").attr("src", img);
+            break;
+        case "shiliangpingmiantuIn":
+            $("#shiliangpingmiantushow").attr("src", img);
+            break;
+        case "shiliangpoumiantuIn":
+            $("#shiliangpoumiantushow").attr("src", img);
+            break;
+        default:
+    }
 
-    $("#shangepingmiantushow").attr("src", img);
 }

@@ -43,12 +43,10 @@
                 nav.navigate("/html/disaster/disaster.html");
             });
 
-
             //平面手绘
             $("#menuPaint").click(function () {
                 nav.navigate("/html/paint/paint.html");
             });
-
 
             //查询显示
             $("#menuDisasterQuery").click(function () {

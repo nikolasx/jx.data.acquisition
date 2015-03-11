@@ -424,4 +424,61 @@ function attachEvents() {
         $("#zhaopianshow").removeAttr("src");
     });
 
+    //栅格平面图
+    $("#shangepingmiantuIn").click(function () {
+        top.disasterPage.btnId = "shangepingmiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //栅格剖面图
+    $("#shangepoumiantuIn").click(function () {
+        top.disasterPage.btnId = "shangepoumiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //栅格素描图
+    $("#shangesumiaotuIn").click(function () {
+        top.disasterPage.btnId = "shangesumiaotuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //矢量平面图
+    $("#shiliangpingmiantuIn").click(function () {
+        top.disasterPage.btnId = "shiliangpingmiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //矢量剖面图
+    $("#shiliangpoumiantuIn").click(function () {
+        top.disasterPage.btnId = "shiliangpoumiantuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+    //矢量素描图
+    $("#shiliangsumiaotuIn").click(function () {
+        top.disasterPage.btnId = "shiliangsumiaotuIn";
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+}
+
+
+
+function showPaintImage(id, img) {
+    switch (id) {
+        case "shangepingmiantuIn":
+            $("#shangepingmiantushow").attr("src", img);
+            break;
+        case "shangepoumiantuIn":
+            $("#shangepoumiantushow").attr("src", img);
+            break;
+        case "shangesumiaotuIn":
+            $("#shangesumiaotushow").attr("src", img);
+            break;
+        case "shiliangpingmiantuIn":
+            $("#shiliangpingmiantushow").attr("src", img);
+            break;
+        case "shiliangpoumiantuIn":
+            $("#shiliangpoumiantushow").attr("src", img);
+            break;
+        case "shiliangsumiaotuIn":
+            $("#shiliangsumiaotushow").attr("src", img);
+            break;
+        default:
+    }
+
 }

@@ -9,10 +9,8 @@
 
 
         ready: function () {
-
             disasterPage.initialize();
         },
-
 
         unload: function () {
 
@@ -57,6 +55,8 @@
             });
         },
 
+        btnId: "",
+
         //滑出右侧面板
         showRightPanel: function (url) {
             url && $("#disasterRightPanel>iframe").attr("src", url);
@@ -68,7 +68,7 @@
         hideRightPanel: function (img) {
             $("#disasterWrapper").animate({ "left": "0" }, 400);
             $("#disasterRightPanel").animate({ "left": "110%" }, 400);
-            window.frames["disasterRightPanel"].showShanGeTuPingmian(img);
+            window.frames["disasterRightPanel"].showPaintImage(this.btnId, img);
         }
 
     });

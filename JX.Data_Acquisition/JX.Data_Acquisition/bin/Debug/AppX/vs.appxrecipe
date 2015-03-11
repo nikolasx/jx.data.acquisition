@@ -110,15 +110,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Bengta.html">
       <PackagePath>html\Disaster5WInfo\Bengta.html</PackagePath>
-      <Modified>2015-03-10T07:15:12.823</Modified>
+      <Modified>2015-03-11T09:36:22.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Huapo.html">
       <PackagePath>html\Disaster5WInfo\Huapo.html</PackagePath>
-      <Modified>2015-03-10T06:49:33.712</Modified>
+      <Modified>2015-03-11T09:45:30.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Xiepo.html">
       <PackagePath>html\Disaster5WInfo\Xiepo.html</PackagePath>
-      <Modified>2015-03-10T08:52:51.729</Modified>
+      <Modified>2015-03-11T09:07:27.760</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.html">
       <PackagePath>html\disasterquery\query.html</PackagePath>
@@ -186,7 +186,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\bengta.js">
       <PackagePath>html\Disaster5WInfo\Scripts\bengta.js</PackagePath>
-      <Modified>2015-03-10T07:40:14.905</Modified>
+      <Modified>2015-03-11T09:38:22.391</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\common.js">
       <PackagePath>html\Disaster5WInfo\Scripts\common.js</PackagePath>
@@ -198,7 +198,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\huapo.js">
       <PackagePath>html\Disaster5WInfo\Scripts\huapo.js</PackagePath>
-      <Modified>2015-03-10T07:38:59.123</Modified>
+      <Modified>2015-03-11T09:46:08.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\interfaceAPI.js">
       <PackagePath>html\Disaster5WInfo\Scripts\interfaceAPI.js</PackagePath>
@@ -210,7 +210,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\xiepo.js">
       <PackagePath>html\Disaster5WInfo\Scripts\xiepo.js</PackagePath>
-      <Modified>2015-03-10T09:05:40.200</Modified>
+      <Modified>2015-03-11T09:15:48.652</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.js">
       <PackagePath>html\disasterquery\query.js</PackagePath>
@@ -222,7 +222,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.js">
       <PackagePath>html\disaster\disaster.js</PackagePath>
-      <Modified>2015-03-10T09:28:29.618</Modified>
+      <Modified>2015-03-11T09:01:38.941</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
       <PackagePath>html\home\home.js</PackagePath>
@@ -230,7 +230,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.js">
       <PackagePath>html\menu\menu.js</PackagePath>
-      <Modified>2015-03-09T06:40:46.301</Modified>
+      <Modified>2015-03-11T08:17:44.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.js">
       <PackagePath>html\paint\paint.js</PackagePath>
