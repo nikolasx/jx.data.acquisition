@@ -8,7 +8,6 @@
 
         ready: function () {
 
-
             disasterStatistic.initialize();
         },
 
@@ -24,6 +23,7 @@
             this.attachEvents();
             this.getData();
             $(".statisheadtitle").eq(0).trigger("click");
+
         },
 
 

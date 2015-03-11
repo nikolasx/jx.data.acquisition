@@ -20,7 +20,7 @@
     <AppXManifest Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-03-10T01:19:58.602</Modified>
+      <Modified>2015-03-11T07:45:48.544</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +50,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.css">
       <PackagePath>html\disaster\disaster.css</PackagePath>
-      <Modified>2015-03-04T08:12:14.913</Modified>
+      <Modified>2015-03-10T07:42:55.782</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.css">
       <PackagePath>html\home\home.css</PackagePath>
@@ -58,11 +58,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.css">
       <PackagePath>html\menu\menu.css</PackagePath>
-      <Modified>2015-03-05T06:03:29.124</Modified>
+      <Modified>2015-03-11T07:59:40.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.css">
       <PackagePath>html\paint\paint.css</PackagePath>
-      <Modified>2015-01-19T08:34:04.907</Modified>
+      <Modified>2015-03-11T07:08:35.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\avoidriskcard\avoidriskcard.css">
       <PackagePath>html\QCQF\avoidriskcard\avoidriskcard.css</PackagePath>
@@ -110,15 +110,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Bengta.html">
       <PackagePath>html\Disaster5WInfo\Bengta.html</PackagePath>
-      <Modified>2015-03-04T08:01:11.631</Modified>
+      <Modified>2015-03-10T07:15:12.823</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Huapo.html">
       <PackagePath>html\Disaster5WInfo\Huapo.html</PackagePath>
-      <Modified>2015-03-04T08:00:29.068</Modified>
+      <Modified>2015-03-10T06:49:33.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Xiepo.html">
       <PackagePath>html\Disaster5WInfo\Xiepo.html</PackagePath>
-      <Modified>2015-03-04T08:01:21.975</Modified>
+      <Modified>2015-03-10T08:52:51.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.html">
       <PackagePath>html\disasterquery\query.html</PackagePath>
@@ -130,7 +130,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.html">
       <PackagePath>html\disaster\disaster.html</PackagePath>
-      <Modified>2015-03-04T08:45:15.492</Modified>
+      <Modified>2015-03-10T09:13:57.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.html">
       <PackagePath>html\home\home.html</PackagePath>
@@ -142,11 +142,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\menu\menu.html">
       <PackagePath>html\menu\menu.html</PackagePath>
-      <Modified>2015-03-09T06:02:05.003</Modified>
+      <Modified>2015-03-11T07:45:14.679</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.html">
       <PackagePath>html\paint\paint.html</PackagePath>
-      <Modified>2015-01-19T08:32:07.719</Modified>
+      <Modified>2015-03-11T08:03:20.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\avoidriskcard\avoidriskcard.html">
       <PackagePath>html\QCQF\avoidriskcard\avoidriskcard.html</PackagePath>
@@ -186,7 +186,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\bengta.js">
       <PackagePath>html\Disaster5WInfo\Scripts\bengta.js</PackagePath>
-      <Modified>2015-03-04T07:20:59.173</Modified>
+      <Modified>2015-03-10T07:40:14.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\common.js">
       <PackagePath>html\Disaster5WInfo\Scripts\common.js</PackagePath>
@@ -198,7 +198,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\huapo.js">
       <PackagePath>html\Disaster5WInfo\Scripts\huapo.js</PackagePath>
-      <Modified>2015-03-04T07:20:59.132</Modified>
+      <Modified>2015-03-10T07:38:59.123</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\interfaceAPI.js">
       <PackagePath>html\Disaster5WInfo\Scripts\interfaceAPI.js</PackagePath>
@@ -210,7 +210,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\Disaster5WInfo\Scripts\xiepo.js">
       <PackagePath>html\Disaster5WInfo\Scripts\xiepo.js</PackagePath>
-      <Modified>2015-03-04T07:20:59.096</Modified>
+      <Modified>2015-03-10T09:05:40.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterquery\query.js">
       <PackagePath>html\disasterquery\query.js</PackagePath>
@@ -218,11 +218,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disasterStatistic\statistic.js">
       <PackagePath>html\disasterStatistic\statistic.js</PackagePath>
-      <Modified>2015-03-10T02:36:19.606</Modified>
+      <Modified>2015-03-10T04:00:10.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\disaster\disaster.js">
       <PackagePath>html\disaster\disaster.js</PackagePath>
-      <Modified>2015-03-04T08:09:40.138</Modified>
+      <Modified>2015-03-10T09:28:29.618</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\home\home.js">
       <PackagePath>html\home\home.js</PackagePath>
@@ -234,7 +234,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\paint\paint.js">
       <PackagePath>html\paint\paint.js</PackagePath>
-      <Modified>2015-01-26T07:09:48.013</Modified>
+      <Modified>2015-03-11T07:12:25.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\html\QCQF\qcqf\qcqf.js">
       <PackagePath>html\QCQF\qcqf\qcqf.js</PackagePath>
@@ -294,7 +294,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\util.js">
       <PackagePath>js\lib\util.js</PackagePath>
-      <Modified>2015-03-10T02:27:49.480</Modified>
+      <Modified>2015-03-10T07:29:00.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\js\lib\zdclient.js">
       <PackagePath>js\lib\zdclient.js</PackagePath>
@@ -339,6 +339,10 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\fzgh1.png">
       <PackagePath>images\menuIcon\fzgh1.png</PackagePath>
       <Modified>2013-10-21T04:12:58.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\menuIcon.png">
+      <PackagePath>images\menuIcon\menuIcon.png</PackagePath>
+      <Modified>2015-03-11T07:39:53.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\paint.png">
       <PackagePath>images\menuIcon\paint.png</PackagePath>
@@ -5914,7 +5918,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-03-10T01:19:58.077</Modified>
+      <Modified>2015-03-11T07:45:47.891</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

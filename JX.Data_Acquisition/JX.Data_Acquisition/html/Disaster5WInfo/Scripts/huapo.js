@@ -612,3 +612,26 @@ function showLandslideInfo(infoObj) {
     //特殊处理危害对象
     selectWeiHaiOrWeiXieDuiXiang([["weihaiduixiang", "weihaiduixiangqita", infoObj.危害对象], ["weixieduixiang", "weixieduixiangqita", infoObj.威胁对象]]);
 }
+
+
+
+function attachEvents() {
+
+    //拍照
+    $("#zhaopianIn").click(function () {
+        top.AppUtil.capturePhoto($.noop);
+    });
+
+    //选择文件
+    $("#zhaopianOut").click(function () {
+        top.AppUtil.pickSinglePhoto(function (url) {
+            url && $("#zhaopianshow").attr("src", url);
+        });
+    });
+
+    //删除图片
+    $("#zhaopianDel").click(function() {
+        $("#zhaopianshow").removeAttr("src");
+    });
+
+}

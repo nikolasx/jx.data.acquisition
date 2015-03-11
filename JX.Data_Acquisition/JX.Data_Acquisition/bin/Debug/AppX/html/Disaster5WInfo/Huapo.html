@@ -12,6 +12,7 @@
     <script type="text/javascript">
         $(document).ready(function () {
             eventInitialize();
+            attachEvents();
         });
     </script>
 </head>
@@ -1594,12 +1595,14 @@
                 <div class="chart1CommonS" style="width: 659px; height: 249px; line-height: none; border: none; border-bottom: 1px solid #cecece; background-color: #ffffff;">
                     <div class="chart1CommonS" style="width: 659px; height: 200px; border: none; line-height: none;">
                         <!--@* 上传区域 预留 *@-->
-                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">预留，请替换控件</div>
+                        <div style="height: 98%; width: 97%; border: 1px solid #cecece; margin-top: 3px; color: #cecece; margin-left: 10px;">
+                            <img id="zhaopianshow" style="max-width: 100%;max-height: 100%;display: block;"/>
+                        </div>
                     </div>
                     <div class="chart1CommonS" style="width: 659px; height: 45px; border: none; line-height: none;">
                         <div class="buttonCommon" id="zhaopianDel" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">删除</div>
-                        <div class="buttonCommon" id="zhaopianOut" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">导出</div>
-                        <div class="buttonCommon" id="zhaopianIn" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">导入</div>
+                        <div class="buttonCommon" id="zhaopianOut" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">选择</div>
+                        <div class="buttonCommon" id="zhaopianIn" style="width: 60px; height: 30px; line-height: 30px; float: right; margin-right: 5px; margin-top: 8px;">拍照</div>
                     </div>
                 </div>
             </div>

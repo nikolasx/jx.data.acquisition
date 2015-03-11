@@ -253,6 +253,9 @@
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\fzgh1.png">
       <PackagePath>images\menuIcon\fzgh1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\menuIcon.png">
+      <PackagePath>images\menuIcon\menuIcon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lixiong1\Desktop\win8_jx\JX.Data_Acquisition\JX.Data_Acquisition\images\menuIcon\paint.png">
       <PackagePath>images\menuIcon\paint.png</PackagePath>
     </AppxPackagedFile>

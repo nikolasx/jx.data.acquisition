@@ -33,7 +33,6 @@ WinJS.Namespace.define("messageDialog", {
 
 WinJS.Namespace.define("AppUtil", {
 
-
     //判断网络状态
     checkNetwork: function () {
         var networkState = -1;   //1,0,-1分别表示 连接互联网  连接局域网 离线
@@ -171,6 +170,85 @@ WinJS.Namespace.define("AppUtil", {
             }
         }
         return index;
+    },
+
+    //调用摄像头方法
+    capturePhoto: function (callback) {
+        var dialog = new Windows.Media.Capture.CameraCaptureUI();
+        dialog.photoSettings.croppedAspectRatio = { width: 16, height: 9 };
+        dialog.captureFileAsync(Windows.Media.Capture.CameraCaptureUIMode.photo).done(function (file) {
+            if (file) {
+                var photoBlobUrl = URL.createObjectURL(file, { oneTimeOnly: true });
+                callback(photoBlobUrl);
+            } else {
+                callback(null);
+            }
+        }, function (err) {
+        });
+    },
+
+    //选择多张图片
+    pickMultiplePhotos: function (callback) {
+
+        var currentState = Windows.UI.ViewManagement.ApplicationView.value;
+        if (currentState === Windows.UI.ViewManagement.ApplicationViewState.snapped &&
+            !Windows.UI.ViewManagement.ApplicationView.tryUnsnap()) {
+            return;
+        }
+
+        var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
+        openPicker.viewMode = Windows.Storage.Pickers.PickerViewMode.list;
+        openPicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.picturesLibrary;
+        openPicker.fileTypeFilter.replaceAll([".png", ".jpg", ".jpeg"]);
+
+        openPicker.pickMultipleFilesAsync().then(function (files) {
+            if (files.size > 0) {
+                callback(files);
+            } else {
+                callback(null);
+            }
+        });
+    },
+
+    //选择单张图片
+    pickSinglePhoto: function (callback) {
+
+        var currentState = Windows.UI.ViewManagement.ApplicationView.value;
+        if (currentState === Windows.UI.ViewManagement.ApplicationViewState.snapped &&
+            !Windows.UI.ViewManagement.ApplicationView.tryUnsnap()) {
+            return;
+        }
+        var openPicker = new Windows.Storage.Pickers.FileOpenPicker();
+        openPicker.viewMode = Windows.Storage.Pickers.PickerViewMode.thumbnail;
+        openPicker.suggestedStartLocation = Windows.Storage.Pickers.PickerLocationId.picturesLibrary;
+        openPicker.fileTypeFilter.replaceAll([".png", ".jpg", ".jpeg"]);
+
+        openPicker.pickSingleFileAsync().then(function (file) {
+            if (file) {
+                var photoBlobUrl = URL.createObjectURL(file, { oneTimeOnly: true });
+                callback(photoBlobUrl);
+            } else {
+                callback(null);
+            }
+        });
+    },
+
+    //在指定文件夹保存文件
+    saveFile: function (input, fileFolderName, fileName) {
+        Windows.Storage.ApplicationData.current.localFolder.createFolderAsync(fileFolderName, Windows.Storage.CreationCollisionOption.openIfExists)
+            .then(function (fileFolder) {
+                fileFolder.createFileAsync(fileName, Windows.Storage.CreationCollisionOption.replaceExisting)
+                    .then(function (file) {
+                        file.openAsync(Windows.Storage.FileAccessMode.readWrite).then(function (output) {
+                            Windows.Storage.Streams.RandomAccessStream.copyAsync(input, output).then(function () {
+                                output.flushAsync().done(function () {
+                                    input.close();
+                                    output.close();
+                                });
+                            });
+                        });
+                    });
+            });
     }
 
 });

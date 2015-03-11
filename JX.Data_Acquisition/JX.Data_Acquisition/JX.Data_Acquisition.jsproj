@@ -118,6 +118,7 @@
     <Content Include="images\menuIcon\baseDataIcon.png" />
     <Content Include="images\menuIcon\disasterstatistic.png" />
     <Content Include="images\menuIcon\fzgh1.png" />
+    <Content Include="images\menuIcon\menuIcon.png" />
     <Content Include="images\menuIcon\paint.png" />
     <Content Include="images\menuIcon\qfjc1.png" />
     <Content Include="images\menuIcon\qftx.png" />

@@ -400,3 +400,28 @@ var getCollapseInfo = function (callback) {
         "录像": "true"
     };
 }
+
+
+
+
+//崩塌页面事件
+function attachEvents() {
+
+    //拍照
+    $("#zhaopianIn").click(function () {
+        top.AppUtil.capturePhoto($.noop);
+    });
+
+    //选择文件
+    $("#zhaopianOut").click(function () {
+        top.AppUtil.pickSinglePhoto(function (url) {
+            url && $("#zhaopianshow").attr("src", url);
+        });
+    });
+
+    //删除图片
+    $("#zhaopianDel").click(function () {
+        $("#zhaopianshow").removeAttr("src");
+    });
+
+}

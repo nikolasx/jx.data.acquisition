@@ -55,6 +55,21 @@
                     default:
                 }
             });
+        },
+
+        //滑出右侧面板
+        showRightPanel: function (url) {
+            url && $("#disasterRightPanel>iframe").attr("src", url);
+            $("#disasterWrapper").animate({ "left": "-110%" }, 400);
+            $("#disasterRightPanel").animate({ "left": "0" }, 400);
+
+        },
+        //收起右侧面板
+        hideRightPanel: function (img) {
+            $("#disasterWrapper").animate({ "left": "0" }, 400);
+            $("#disasterRightPanel").animate({ "left": "110%" }, 400);
+            window.frames["disasterRightPanel"].showShanGeTuPingmian(img);
         }
+
     });
 })();

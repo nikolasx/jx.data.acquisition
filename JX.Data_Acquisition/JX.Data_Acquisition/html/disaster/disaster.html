@@ -9,13 +9,12 @@
 <body>
 
     <div id="disasterWrapper">
-        
         <div id="disasterLeft">
             <header id="disasterHeader">
                 <div id="disasterTitleIcon"></div>
                 <div id="disasterTitle">基础数据录入</div>
             </header>
-            
+
             <!--灾害类型列表-->
             <ul class="disasterTypeList">
                 <li class="disasterTypeSelected">滑坡</li>
@@ -23,13 +22,14 @@
                 <li>斜坡</li>
             </ul>
         </div>
-        
+
         <div id="disasterRight">
-            <iframe id="DisasterTableContainer"></iframe>
+            <iframe name="disasterRightPanel" id="DisasterTableContainer"></iframe>
         </div>
-
     </div>
-
+    <div id="disasterRightPanel">
+        <iframe style="width: 100%;height: 100%;" data-class="disaster"></iframe>
+    </div>
 
 </body>
 </html>

@@ -24,18 +24,51 @@
         initialize: function () {
             $("#paintCanvas").paint();
             this.attachEvents();
+            this.addMap();
+        },
+
+        addMap: function () {
+
+            this.map = new OpenLayers.Map("paintMap", {
+                maxExtent: new OpenLayers.Bounds(12523442.7142433, 2504688.54284865, 13775786.9856676, 3757032.81427298),
+                //controls:[nav],
+                numZoomLevels: 6,
+                maxResolution: (13775786.9856676 - 12523442.7142433) / 256,
+                theme: null
+            });
+
+            //R2TeamSolveMulitTouch.initialize(this.map, "myTouchNavigation");
+            //R2TeamSolveMulitTouch.resetTouchNavigation();
+
+            var titleLayerApp = new Zondy.Map.TileLayerForMetro("myAppDitu", "", {
+                baseUrl: "/map/images/IMG"
+            });
+
+            var titleLayer = new Zondy.Map.TileLayer("ditu", "jxApp", {
+                ip: '192.168.83.122',
+                port: '6163',
+                transitionEffect: 'resize'
+            });
+
+            this.map.addLayer(titleLayerApp);
+            this.map.setCenter(new OpenLayers.LonLat(12997262.6, 3317403.8), 3);
         },
 
         attachEvents: function () {
 
+            var canvas = $("#paintCanvas");
             //页面跳转
             $("#paintTitleIcon,#paintTitle").click(function () {
                 //模拟导航
                 $("#secondPageContainer").css("height", "0");
                 $("#firstPageContainer").css("height", "100%");
-            });
 
-            var canvas = $("#paintCanvas");
+                //如果为其他页面调用功能
+                if ($("#secondPageContainer").length == 0) {
+                    top.disasterPage.hideRightPanel(canvas.paint("getImg"));
+
+                }
+            });
 
             $("#paintLineWidthSelect").change(function () {
                 var width = $(this).val();
@@ -62,6 +95,20 @@
 
             $("#paintClear").click(function () {
                 canvas.paint("clear");
+            });
+
+            //操作地图
+            var mapActived = false;
+            $("#activeMap").click(function () {
+                if (!mapActived) {
+                    $(this).css("background-color", "#0a63a7");
+                    $("#paintCanvas").hide();
+                    mapActived = true;
+                } else {
+                    $(this).css("background-color", "#171c22");
+                    $("#paintCanvas").show();
+                    mapActived = false;
+                }
             });
         }
 
@@ -246,7 +293,13 @@
     prototype.clear = function () {
         this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
         this.brushList.length = 0;
-    }
+    };
+
+    //获取绘制的图
+    prototype.getImg = function () {
+        var img = this.canvas.toDataURL("image/png");
+        return img;
+    };
 
 
     $.fn.paint = function (option) {

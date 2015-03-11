@@ -549,3 +549,37 @@ var privateUtilHandleYTKD = function (val, index) {
     if (_1r.length < index + 1) return "";
     return _1r[index];
 }
+
+
+
+function attachEvents() {
+
+    //拍照
+    $("#zhaopianIn").click(function () {
+        top.AppUtil.capturePhoto($.noop);
+    });
+
+    //选择文件
+    $("#zhaopianOut").click(function () {
+        top.AppUtil.pickSinglePhoto(function (url) {
+            url && $("#zhaopianshow").attr("src", url);
+        });
+    });
+
+    //删除图片
+    $("#zhaopianDel").click(function () {
+        $("#zhaopianshow").removeAttr("src");
+    });
+
+    //栅格平面图
+    $("#shangepingmiantuIn").click(function () {
+        top.disasterPage.showRightPanel("/html/paint/paint.html");
+    });
+
+
+}
+
+function showShanGeTuPingmian(img) {
+
+    $("#shangepingmiantushow").attr("src", img);
+}
