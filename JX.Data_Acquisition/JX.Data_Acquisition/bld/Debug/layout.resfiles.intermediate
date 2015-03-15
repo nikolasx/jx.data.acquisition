@@ -47,6 +47,12 @@ html\QCQF\qcqf\qcqf.css
 html\QCQF\qcqf\qcqf.html
 html\QCQF\qcqf\qcqf.js
 html\QCQF\workingguidecard\workingguidecard.html
+html\quicklyReports\report.css
+html\quicklyReports\report.html
+html\quicklyReports\report.js
+html\quicklyReports\table\quicklyReport.html
+html\quicklyReports\table\quicklyReport.js
+html\quicklyReports\table\quicklyReports.css
 html\remoteSensePoint\remotesensepoint.css
 html\remoteSensePoint\remotesensepoint.html
 html\remoteSensePoint\remotesensepoint.js

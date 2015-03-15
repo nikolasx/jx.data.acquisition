@@ -103,6 +103,12 @@
     <Content Include="html\QCQF\qcqf\qcqf.html" />
     <Content Include="html\QCQF\qcqf\qcqf.js" />
     <Content Include="html\QCQF\workingguidecard\workingguidecard.html" />
+    <Content Include="html\quicklyReports\report.css" />
+    <Content Include="html\quicklyReports\report.html" />
+    <Content Include="html\quicklyReports\report.js" />
+    <Content Include="html\quicklyReports\table\quicklyReport.html" />
+    <Content Include="html\quicklyReports\table\quicklyReport.js" />
+    <Content Include="html\quicklyReports\table\quicklyReports.css" />
     <Content Include="html\remoteSensePoint\remotesensepoint.css" />
     <Content Include="html\remoteSensePoint\remotesensepoint.html" />
     <Content Include="html\remoteSensePoint\remotesensepoint.js" />

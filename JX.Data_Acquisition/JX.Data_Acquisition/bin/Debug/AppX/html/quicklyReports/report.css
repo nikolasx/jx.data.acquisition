@@ -1,0 +1,53 @@
+﻿
+
+#reportWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#reportLeft {
+    width: 350px;
+    height: 100%;
+    background-color: #313C47;
+}
+
+#reportHeader {
+    width: 100%;
+    height: 90px;
+}
+
+#reportTitleIcon {
+    width:11px;
+    height:17px;
+    background-image:url("/images/pageReturn.png");
+    margin-top:43px;
+    margin-left:22px;
+    float:left;
+}
+
+#reportTitle {
+    height:36px;
+    width:260px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float: left;
+}
+
+
+
+#reportRight {
+    position: absolute;
+    height: 100%;
+    background-color: #fff;
+    left: 350px;
+    right: 0;
+    top: 0;
+}
+
+#reportContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}

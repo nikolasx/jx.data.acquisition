@@ -43,9 +43,9 @@
                 nav.navigate("/html/disaster/disaster.html");
             });
 
-            //平面手绘
+            //速报
             $("#menuPaint").click(function () {
-                nav.navigate("/html/paint/paint.html");
+                nav.navigate("/html/quicklyReports/report.html");
             });
 
             //查询显示
